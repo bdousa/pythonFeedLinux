@@ -79,7 +79,7 @@ jobs:
               handle.write(json.dumps(tags))
               handle.write("\nEOF\n")
               handle.write(f"tag_count={len(tags)}\n")
-              PY
+          PY
 
       - name: Update manifest and README
         run: |
