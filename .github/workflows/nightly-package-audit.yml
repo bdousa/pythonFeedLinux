@@ -1,0 +1,93 @@
+name: Nightly Package Audit
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+    inputs:
+      package:
+        description: 'Optional package name to scan by itself'
+        required: false
+        default: ''
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  SNYK_ORG: ${{ secrets.SNYK_ORG }}
+
+jobs:
+  nightly-audit:
+    name: Audit active package inventory
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install and authenticate Snyk
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: |
+          if [[ -z "${SNYK_TOKEN:-}" ]]; then echo 'Missing required secret: SNYK_TOKEN' >&2; exit 1; fi
+          if [[ -z "${SNYK_ORG:-}" ]]; then echo 'Missing required secret: SNYK_ORG' >&2; exit 1; fi
+          npm install -g snyk
+          snyk auth "$SNYK_TOKEN"
+
+      - name: Generate nightly audit report
+        run: |
+          package="$(printf '%s' '${{ github.event.inputs.package }}' | xargs)"
+          args=(scripts/nightly_rescan.py --manifest packages.json --output-dir audit_output --baselines-dir audit-baselines)
+          if [[ -n "$package" ]]; then
+            args+=(--package "$package")
+            echo "Running targeted audit for package: $package"
+          fi
+          python "${args[@]}"
+          if [[ -f audit_output/nightly-audit.md ]]; then
+            cat audit_output/nightly-audit.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit refreshed baselines
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.package == '' }}
+        env:
+          REPO_WRITE_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add audit-baselines
+          if git diff --cached --quiet; then
+            echo 'No baseline changes to commit.'
+            exit 0
+          fi
+          git commit -m "nightly audit: refresh vulnerability baselines ($(date +%F))"
+          if [[ -n "${REPO_WRITE_TOKEN:-}" ]]; then
+            remote_url="https://x-access-token:$REPO_WRITE_TOKEN@github.com/${{ github.repository }}.git"
+            git fetch "$remote_url" main
+            git rebase FETCH_HEAD
+            git push "$remote_url" HEAD:main
+          else
+            git push
+          fi
+
+      - name: Upload nightly audit artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightly-package-audit-${{ github.run_id }}
+          path: |
+            audit_output/nightly-audit.json
+            audit_output/nightly-audit.md
+            audit-baselines/

@@ -1,0 +1,74 @@
+name: Bulk Package Validation
+
+# Dispatches the single-package validation workflow once per package listed in
+# the workflow inputs. Each individual run still requires the PackageApproval
+# gate before its publish job touches packages.json / README.md. Set
+# publish_to_feed=false for a dry-run that just exercises the scans + AI review
+# without modifying the manifest.
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_to_feed:
+        description: 'Publish each package after manual approval'
+        required: true
+        default: true
+        type: boolean
+      package_version:
+        description: 'Version requested for every package (use "latest" for current)'
+        required: true
+        default: 'latest'
+        type: string
+      package_list:
+        description: 'Comma-separated package names to validate (example: requests,numpy,pyarrow)'
+        required: true
+        type: string
+      delay_seconds:
+        description: 'Seconds to wait between dispatches (avoid API throttling)'
+        required: false
+        default: '5'
+        type: string
+
+permissions:
+  contents: read
+  actions: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  dispatch-validations:
+    name: Dispatch per-package validation runs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch package-validation-linux.yml for each listed package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PACKAGE_VERSION: ${{ inputs.package_version }}
+          PUBLISH_TO_FEED: ${{ inputs.publish_to_feed }}
+          DELAY_SECONDS: ${{ inputs.delay_seconds }}
+          PACKAGE_LIST: ${{ inputs.package_list }}
+          TARGET_REF: ${{ github.ref_name }}
+        run: |
+          IFS=',' read -ra raw_packages <<< "$PACKAGE_LIST"
+          mapfile -t packages < <(printf '%s\n' "${raw_packages[@]}" | xargs -n1 | sed '/^$/d' | sort -fu)
+          if [[ ${#packages[@]} -eq 0 ]]; then
+            echo 'No packages selected for dispatch. Provide at least one package name in package_list.' >&2
+            exit 1
+          fi
+          delay="$DELAY_SECONDS"
+          if ! [[ "$delay" =~ ^[0-9]+$ ]]; then delay=0; fi
+          echo "Dispatching ${#packages[@]} package(s) on ref '$TARGET_REF' with publish_to_feed=$PUBLISH_TO_FEED, package_version=$PACKAGE_VERSION."
+          for package in "${packages[@]}"; do
+            echo "  -> $package"
+            gh workflow run package-validation-linux.yml \
+              --repo "$GH_REPO" \
+              --ref "$TARGET_REF" \
+              -f package_name="$package" \
+              -f package_version="$PACKAGE_VERSION" \
+              -f publish_to_feed="$PUBLISH_TO_FEED"
+            if [[ "$delay" -gt 0 ]]; then sleep "$delay"; fi
+          done
+          echo 'Dispatch complete. Each run still requires PackageApproval before publishing.'

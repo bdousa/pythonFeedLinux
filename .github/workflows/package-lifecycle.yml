@@ -1,0 +1,153 @@
+name: Package Lifecycle Management
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      package_name:
+        description: Python package name to update in the manifest
+        required: true
+        type: string
+      lifecycle_action:
+        description: Deprecate, restore, or permanently delete the package entry
+        required: true
+        type: choice
+        options:
+          - deprecate
+          - restore
+          - delete
+      reason:
+        description: Optional reason for deprecation or deletion
+        required: false
+        default: ''
+        type: string
+      purge_release_artifacts:
+        description: Permanently delete tracked GitHub releases and tags for this package. Irreversible. Only use if you are sure no apps still depend on these approved artifacts.
+        required: true
+        default: false
+        type: boolean
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  update-lifecycle:
+    name: Update package lifecycle state
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Capture tracked release tags before delete
+        id: release-tags
+        if: ${{ inputs.lifecycle_action == 'delete' && inputs.purge_release_artifacts }}
+        run: |
+          PACKAGE_NAME="${{ inputs.package_name }}" python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          manifest = json.loads(Path("packages.json").read_text(encoding="utf-8-sig"))
+          package = (manifest.get("packages") or {}).get(os.environ["PACKAGE_NAME"])
+          if not package:
+              raise SystemExit(f"Package not found in manifest: {os.environ['PACKAGE_NAME']}")
+
+          tags = []
+          seen = set()
+
+          def add_tag(value):
+              if value and value not in seen:
+                  seen.add(value)
+                  tags.append(value)
+
+          add_tag(package.get("latestReleaseTag"))
+          for entry in package.get("versions") or []:
+              add_tag(entry.get("releaseTag"))
+              add_tag(entry.get("legacySourceReleaseTag"))
+
+          print(f"Tracked release tags for purge: {tags}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as handle:
+              handle.write("tags_json<<EOF\n")
+              handle.write(json.dumps(tags))
+              handle.write("\nEOF\n")
+              handle.write(f"tag_count={len(tags)}\n")
+              PY
+
+      - name: Update manifest and README
+        run: |
+          python scripts/manifest_tools.py set-lifecycle \
+            --manifest-path packages.json \
+            --manifest-output packages.json \
+            --readme-output README.md \
+            --package-name "${{ inputs.package_name }}" \
+            --lifecycle-action "${{ inputs.lifecycle_action }}" \
+            --reason "${{ inputs.reason }}"
+
+      - name: Permanently purge tracked GitHub releases and tags
+        if: ${{ inputs.lifecycle_action == 'delete' && inputs.purge_release_artifacts }}
+        env:
+          GH_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
+          REPO_WRITE_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
+        run: |
+          if [[ -z "${REPO_WRITE_TOKEN:-}" ]]; then echo 'Missing required secret: REPO_WRITE_TOKEN' >&2; exit 1; fi
+          if ! command -v gh >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y gh
+          fi
+          tags_json='${{ steps.release-tags.outputs.tags_json }}'
+          if [[ -z "${tags_json// }" || "$tags_json" == '[]' ]]; then
+            echo 'No tracked GitHub releases or tags were found for purge.'
+            exit 0
+          fi
+          mapfile -t tags < <(TAGS_JSON="$tags_json" python - <<'PY'
+          import json
+          import os
+          for tag in json.loads(os.environ.get('TAGS_JSON') or '[]'):
+              if tag:
+                  print(tag)
+          PY
+          )
+          if [[ ${#tags[@]} -eq 0 ]]; then
+            echo 'No tracked GitHub releases or tags were found for purge.'
+            exit 0
+          fi
+          echo 'WARNING: Permanent purge requested.'
+          echo 'This deletes GitHub releases and Git tags for all tracked versions of the package.'
+          remote_url="https://x-access-token:$REPO_WRITE_TOKEN@github.com/${{ github.repository }}.git"
+          for tag in "${tags[@]}"; do
+            if gh release view "$tag" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+              echo "Deleting release and tag: $tag"
+              gh release delete "$tag" --repo "${{ github.repository }}" --cleanup-tag --yes
+              continue
+            fi
+            if git ls-remote --tags "$remote_url" "refs/tags/$tag" | grep -q .; then
+              echo "Deleting orphaned tag without matching release: $tag"
+              git push "$remote_url" ":refs/tags/$tag"
+            else
+              echo "Release/tag not found, skipping: $tag"
+            fi
+          done
+
+      - name: Commit lifecycle changes
+        env:
+          REPO_WRITE_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
+        run: |
+          if [[ -z "${REPO_WRITE_TOKEN:-}" ]]; then echo 'Missing required secret: REPO_WRITE_TOKEN' >&2; exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add packages.json README.md
+          if git diff --cached --quiet; then
+            echo 'No manifest or README changes to commit.'
+            exit 0
+          fi
+          git commit -m "${{ inputs.lifecycle_action }} ${{ inputs.package_name }}"
+          remote_url="https://x-access-token:$REPO_WRITE_TOKEN@github.com/${{ github.repository }}.git"
+          git push "$remote_url" HEAD:main

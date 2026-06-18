@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "",
+  "packages": {
+    "azure-datalake-store": {
+      "name": "azure-datalake-store",
+      "lifecycleState": "active"
+    },
+    "azure-functions": {
+      "name": "azure-functions",
+      "lifecycleState": "active"
+    },
+    "azure-identity": {
+      "name": "azure-identity",
+      "lifecycleState": "active"
+    },
+    "azure-keyvault-secrets": {
+      "name": "azure-keyvault-secrets",
+      "lifecycleState": "active"
+    },
+    "azure-mgmt-datalake-store": {
+      "name": "azure-mgmt-datalake-store",
+      "lifecycleState": "active"
+    },
+    "azure-storage-blob": {
+      "name": "azure-storage-blob",
+      "lifecycleState": "active"
+    },
+    "black": {
+      "name": "black",
+      "lifecycleState": "active"
+    },
+    "chardet": {
+      "name": "chardet",
+      "lifecycleState": "active"
+    },
+    "datalake": {
+      "name": "datalake",
+      "lifecycleState": "active"
+    },
+    "deltalake": {
+      "name": "deltalake",
+      "lifecycleState": "active"
+    },
+    "fastexcel": {
+      "name": "fastexcel",
+      "lifecycleState": "active"
+    },
+    "fsspec": {
+      "name": "fsspec",
+      "lifecycleState": "active"
+    },
+    "lxml": {
+      "name": "lxml",
+      "lifecycleState": "active"
+    },
+    "matplotlib": {
+      "name": "matplotlib",
+      "lifecycleState": "active"
+    },
+    "msal": {
+      "name": "msal",
+      "lifecycleState": "active"
+    },
+    "numpy": {
+      "name": "numpy",
+      "lifecycleState": "active"
+    },
+    "openpyxl": {
+      "name": "openpyxl",
+      "lifecycleState": "active"
+    },
+    "pandas": {
+      "name": "pandas",
+      "lifecycleState": "active"
+    },
+    "pillow": {
+      "name": "pillow",
+      "lifecycleState": "active"
+    },
+    "polars": {
+      "name": "polars",
+      "lifecycleState": "active"
+    },
+    "pyarrow": {
+      "name": "pyarrow",
+      "lifecycleState": "active"
+    },
+    "pyodbc": {
+      "name": "pyodbc",
+      "lifecycleState": "active"
+    },
+    "pypdf": {
+      "name": "pypdf",
+      "lifecycleState": "active"
+    },
+    "pyspark": {
+      "name": "pyspark",
+      "lifecycleState": "active"
+    },
+    "pytesseract": {
+      "name": "pytesseract",
+      "lifecycleState": "active"
+    },
+    "pytest": {
+      "name": "pytest",
+      "lifecycleState": "active"
+    },
+    "pytest-asyncio": {
+      "name": "pytest-asyncio",
+      "lifecycleState": "active"
+    },
+    "pytest-cov": {
+      "name": "pytest-cov",
+      "lifecycleState": "active"
+    },
+    "python-dotenv": {
+      "name": "python-dotenv",
+      "lifecycleState": "active"
+    },
+    "pythonnet": {
+      "name": "pythonnet",
+      "lifecycleState": "active"
+    },
+    "pyyaml": {
+      "name": "pyyaml",
+      "lifecycleState": "active"
+    },
+    "pyzipper": {
+      "name": "pyzipper",
+      "lifecycleState": "active"
+    },
+    "pyzt": {
+      "name": "pyzt",
+      "lifecycleState": "active"
+    },
+    "reportlab": {
+      "name": "reportlab",
+      "lifecycleState": "active"
+    },
+    "requests": {
+      "name": "requests",
+      "lifecycleState": "active"
+    },
+    "ruff": {
+      "name": "ruff",
+      "lifecycleState": "active"
+    },
+    "seaborn": {
+      "name": "seaborn",
+      "lifecycleState": "active"
+    },
+    "sqlalchemy": {
+      "name": "sqlalchemy",
+      "lifecycleState": "active"
+    },
+    "tabula-py": {
+      "name": "tabula-py",
+      "lifecycleState": "active"
+    },
+    "uv": {
+      "name": "uv",
+      "lifecycleState": "active"
+    },
+    "xlrd": {
+      "name": "xlrd",
+      "lifecycleState": "active"
+    },
+    "xlsxwriter": {
+      "name": "xlsxwriter",
+      "lifecycleState": "active"
+    }
+  }
+}
