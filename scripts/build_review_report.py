@@ -30,6 +30,8 @@ SNYK_FAILURE_MARKERS = (
     "failed to get dependencies",
     "could not detect package manager",
     "could not detect supported target files",
+    "snyk-openapi-0004",
+    "may not have the correct permissions",
     "error:",
 )
 
