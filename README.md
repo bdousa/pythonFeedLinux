@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 15
+- **Active packages:** 16
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [R](#r)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [R](#r)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`faiss-cpu`](#faiss-cpu) | `1.14.3` | 2026-06-22 |
 | [`extract-msg`](#extract-msg) | `0.37.1` | 2026-06-22 |
 | [`deltalake`](#deltalake) | `1.6.0` | 2026-06-22 |
 | [`deepagents`](#deepagents) | `0.6.11` | 2026-06-22 |
-| [`chardet`](#chardet) | `7.4.3` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -208,6 +208,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/extract-msg-v0.37.1.txt
+```
+
+### F
+
+#### `faiss-cpu`
+- **Latest version:** `1.14.3`
+- **Validated:** 2026-06-22
+- **Package type:** Wheel (check compatibility)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/faiss-cpu-v1.14.3/faiss_cpu-1.14.3-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/faiss-cpu-v1.14.3)
+- **Validation run:** [build #27970320848](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970320848)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/faiss-cpu-v1.14.3.txt
 ```
 
 ### R

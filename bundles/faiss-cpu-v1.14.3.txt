@@ -1,0 +1,4 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/faiss-cpu-v1.14.3/faiss_cpu-1.14.3-cp310-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/faiss-cpu-v1.14.3/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/faiss-cpu-v1.14.3/packaging-26.2-py3-none-any.whl
