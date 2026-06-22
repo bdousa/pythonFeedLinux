@@ -1,0 +1,5 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/pandas-v3.0.3/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pandas-v3.0.3/pandas-3.0.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pandas-v3.0.3/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pandas-v3.0.3/six-1.17.0-py2.py3-none-any.whl
