@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T18:28:46.994734Z",
+  "generatedAt": "2026-06-22T18:29:51.770003Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -357,6 +357,28 @@
             "pathspec-1.1.1-py3-none-any.whl",
             "platformdirs-4.10.0-py3-none-any.whl",
             "pytokens-0.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "chardet": {
+      "name": "chardet",
+      "latestVersion": "7.4.3",
+      "latestReleaseTag": "chardet-v7.4.3",
+      "versions": [
+        {
+          "version": "7.4.3",
+          "releaseTag": "chardet-v7.4.3",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/chardet-v7.4.3/chardet-7.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/chardet-v7.4.3",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970289512",
+          "buildId": "27970289512",
+          "files": [
+            "chardet-7.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],
