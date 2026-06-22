@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:10:14.954533Z",
+  "generatedAt": "2026-06-22T20:12:02.428078Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1073,6 +1073,28 @@
             "narwhals-2.22.1-py3-none-any.whl",
             "packaging-26.2-py3-none-any.whl",
             "plotly-6.8.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pyarrow": {
+      "name": "pyarrow",
+      "latestVersion": "24.0.0",
+      "latestReleaseTag": "pyarrow-v24.0.0",
+      "versions": [
+        {
+          "version": "24.0.0",
+          "releaseTag": "pyarrow-v24.0.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyarrow-v24.0.0/pyarrow-24.0.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pyarrow-v24.0.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970467779",
+          "buildId": "27970467779",
+          "files": [
+            "pyarrow-24.0.0-cp313-cp313-manylinux_2_28_x86_64.whl"
           ]
         }
       ],
