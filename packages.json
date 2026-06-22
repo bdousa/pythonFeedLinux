@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:16:11.877376Z",
+  "generatedAt": "2026-06-22T20:17:48.994463Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1184,6 +1184,30 @@
           "files": [
             "py4j-0.10.9.9.tar.gz",
             "pyspark-4.1.2.tar.gz"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pytesseract": {
+      "name": "pytesseract",
+      "latestVersion": "0.3.13",
+      "latestReleaseTag": "pytesseract-v0.3.13",
+      "versions": [
+        {
+          "version": "0.3.13",
+          "releaseTag": "pytesseract-v0.3.13",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pytesseract-v0.3.13/pytesseract-0.3.13-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pytesseract-v0.3.13",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970499902",
+          "buildId": "27970499902",
+          "files": [
+            "packaging-26.2-py3-none-any.whl",
+            "pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "pytesseract-0.3.13-py3-none-any.whl"
           ]
         }
       ],

@@ -1,0 +1,4 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytesseract-v0.3.13/packaging-26.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytesseract-v0.3.13/pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytesseract-v0.3.13/pytesseract-0.3.13-py3-none-any.whl
