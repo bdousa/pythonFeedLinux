@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:29:52.192683Z",
+  "generatedAt": "2026-06-22T20:30:48.699748Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1428,6 +1428,35 @@
           "files": [
             "pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
             "pyzipper-0.4.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pyzt": {
+      "name": "pyzt",
+      "latestVersion": "0.0.2",
+      "latestReleaseTag": "pyzt-v0.0.2",
+      "versions": [
+        {
+          "version": "0.0.2",
+          "releaseTag": "pyzt-v0.0.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/pyzt-0.0.2-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pyzt-v0.0.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970566420",
+          "buildId": "27970566420",
+          "files": [
+            "annotated_doc-0.0.4-py3-none-any.whl",
+            "markdown_it_py-4.2.0-py3-none-any.whl",
+            "mdurl-0.1.2-py3-none-any.whl",
+            "pygments-2.20.0-py3-none-any.whl",
+            "pyzt-0.0.2-py3-none-any.whl",
+            "rich-15.0.0-py3-none-any.whl",
+            "shellingham-1.5.4-py2.py3-none-any.whl",
+            "typer-0.26.7-py3-none-any.whl"
           ]
         }
       ],

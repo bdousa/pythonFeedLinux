@@ -1,0 +1,9 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/annotated_doc-0.0.4-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/markdown_it_py-4.2.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/mdurl-0.1.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/pygments-2.20.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/pyzt-0.0.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/rich-15.0.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/shellingham-1.5.4-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/typer-0.26.7-py3-none-any.whl

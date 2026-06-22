@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 48
+- **Active packages:** 49
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`pyzt`](#pyzt) | `0.0.2` | 2026-06-22 |
 | [`pyzipper`](#pyzipper) | `0.4.0` | 2026-06-22 |
 | [`pyyaml`](#pyyaml) | `6.0.3` | 2026-06-22 |
 | [`pythonnet`](#pythonnet) | `3.1.0` | 2026-06-22 |
-| [`python-dotenv`](#python-dotenv) | `1.2.2` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -618,6 +618,18 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyyaml-v
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/pyzipper-v0.4.0.txt
 ```
 
+#### `pyzt`
+- **Latest version:** `0.0.2`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/pyzt-v0.0.2/pyzt-0.0.2-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/pyzt-v0.0.2)
+- **Validation run:** [build #27970566420](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970566420)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/pyzt-v0.0.2.txt
+```
+
 ### R
 
 #### `requests`
@@ -679,6 +691,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:29 UTC*
+*Last updated: 2026-06-22 20:30 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
