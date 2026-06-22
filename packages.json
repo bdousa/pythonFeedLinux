@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:19:28.742370Z",
+  "generatedAt": "2026-06-22T20:20:15.744199Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1234,6 +1234,33 @@
             "pluggy-1.6.0-py3-none-any.whl",
             "pygments-2.20.0-py3-none-any.whl",
             "pytest-9.1.1-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pytest-asyncio": {
+      "name": "pytest-asyncio",
+      "latestVersion": "1.4.0",
+      "latestReleaseTag": "pytest-asyncio-v1.4.0",
+      "versions": [
+        {
+          "version": "1.4.0",
+          "releaseTag": "pytest-asyncio-v1.4.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-asyncio-v1.4.0/pytest_asyncio-1.4.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pytest-asyncio-v1.4.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970513139",
+          "buildId": "27970513139",
+          "files": [
+            "iniconfig-2.3.0-py3-none-any.whl",
+            "packaging-26.2-py3-none-any.whl",
+            "pluggy-1.6.0-py3-none-any.whl",
+            "pygments-2.20.0-py3-none-any.whl",
+            "pytest-9.1.1-py3-none-any.whl",
+            "pytest_asyncio-1.4.0-py3-none-any.whl"
           ]
         }
       ],
