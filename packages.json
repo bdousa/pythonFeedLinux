@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:28:54.345624Z",
+  "generatedAt": "2026-06-22T20:29:52.192683Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1405,6 +1405,29 @@
           "buildId": "27970553180",
           "files": [
             "pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pyzipper": {
+      "name": "pyzipper",
+      "latestVersion": "0.4.0",
+      "latestReleaseTag": "pyzipper-v0.4.0",
+      "versions": [
+        {
+          "version": "0.4.0",
+          "releaseTag": "pyzipper-v0.4.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyzipper-v0.4.0/pyzipper-0.4.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pyzipper-v0.4.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970559954",
+          "buildId": "27970559954",
+          "files": [
+            "pycryptodomex-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "pyzipper-0.4.0-py3-none-any.whl"
           ]
         }
       ],
