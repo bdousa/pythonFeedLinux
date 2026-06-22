@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T18:26:39.681787Z",
+  "generatedAt": "2026-06-22T18:28:46.994734Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -329,6 +329,34 @@
             "requests-2.34.2-py3-none-any.whl",
             "typing_extensions-4.15.0-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "black": {
+      "name": "black",
+      "latestVersion": "26.5.1",
+      "latestReleaseTag": "black-v26.5.1",
+      "versions": [
+        {
+          "version": "26.5.1",
+          "releaseTag": "black-v26.5.1",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/black-v26.5.1/black-26.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/black-v26.5.1",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970283525",
+          "buildId": "27970283525",
+          "files": [
+            "black-26.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "click-8.4.1-py3-none-any.whl",
+            "mypy_extensions-1.1.0-py3-none-any.whl",
+            "packaging-26.2-py3-none-any.whl",
+            "pathspec-1.1.1-py3-none-any.whl",
+            "platformdirs-4.10.0-py3-none-any.whl",
+            "pytokens-0.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],

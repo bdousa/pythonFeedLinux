@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 10
+- **Active packages:** 11
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [R](#r)
+[A](#a) · [B](#b) · [R](#r)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`black`](#black) | `26.5.1` | 2026-06-22 |
 | [`azure-storage-blob`](#azure-storage-blob) | `12.30.0` | 2026-06-22 |
 | [`azure-mgmt-datalake-store`](#azure-mgmt-datalake-store) | `0.5.0` | 2026-06-22 |
 | [`azure-keyvault-secrets`](#azure-keyvault-secrets) | `4.11.0` | 2026-06-22 |
-| [`azure-identity`](#azure-identity) | `1.25.3` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -142,6 +142,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-storage-blob-v12.30.0.txt
 ```
 
+### B
+
+#### `black`
+- **Latest version:** `26.5.1`
+- **Validated:** 2026-06-22
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/black-v26.5.1/black-26.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/black-v26.5.1)
+- **Validation run:** [build #27970283525](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970283525)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/black-v26.5.1.txt
+```
+
 ### R
 
 #### `requests`
@@ -203,6 +217,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 18:26 UTC*
+*Last updated: 2026-06-22 18:28 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
