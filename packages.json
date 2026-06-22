@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T18:26:07.494623Z",
+  "generatedAt": "2026-06-22T18:26:39.681787Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -294,6 +294,39 @@
             "requests-2.34.2-py3-none-any.whl",
             "requests_oauthlib-2.0.0-py2.py3-none-any.whl",
             "six-1.17.0-py2.py3-none-any.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "azure-storage-blob": {
+      "name": "azure-storage-blob",
+      "latestVersion": "12.30.0",
+      "latestReleaseTag": "azure-storage-blob-v12.30.0",
+      "versions": [
+        {
+          "version": "12.30.0",
+          "releaseTag": "azure-storage-blob-v12.30.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/azure-storage-blob-v12.30.0/azure_storage_blob-12.30.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-storage-blob-v12.30.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970277135",
+          "buildId": "27970277135",
+          "files": [
+            "azure_core-1.41.0-py3-none-any.whl",
+            "azure_storage_blob-12.30.0-py3-none-any.whl",
+            "certifi-2026.6.17-py3-none-any.whl",
+            "cffi-2.0.0b1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "cryptography-46.0.0-cp311-abi3-manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "isodate-0.7.2-py3-none-any.whl",
+            "pycparser-3.0-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
             "typing_extensions-4.15.0-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
           ]

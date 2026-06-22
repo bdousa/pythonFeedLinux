@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 9
+- **Active packages:** 10
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`azure-storage-blob`](#azure-storage-blob) | `12.30.0` | 2026-06-22 |
 | [`azure-mgmt-datalake-store`](#azure-mgmt-datalake-store) | `0.5.0` | 2026-06-22 |
 | [`azure-keyvault-secrets`](#azure-keyvault-secrets) | `4.11.0` | 2026-06-22 |
 | [`azure-identity`](#azure-identity) | `1.25.3` | 2026-06-22 |
-| [`azure-functions-durable`](#azure-functions-durable) | `1.5.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -128,6 +128,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-mgmt-datalake-store-v0.5.0.txt
+```
+
+#### `azure-storage-blob`
+- **Latest version:** `12.30.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-storage-blob-v12.30.0/azure_storage_blob-12.30.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-storage-blob-v12.30.0)
+- **Validation run:** [build #27970277135](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970277135)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-storage-blob-v12.30.0.txt
 ```
 
 ### R
