@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:41:23.594598Z",
+  "generatedAt": "2026-06-22T20:42:31.128451Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1677,6 +1677,35 @@
             "greenlet-3.5.2-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
             "sqlalchemy-2.0.51-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "typing_extensions-4.15.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "statsmodels": {
+      "name": "statsmodels",
+      "latestVersion": "0.14.6",
+      "latestReleaseTag": "statsmodels-v0.14.6",
+      "versions": [
+        {
+          "version": "0.14.6",
+          "releaseTag": "statsmodels-v0.14.6",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/statsmodels-0.14.6-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/statsmodels-v0.14.6",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970625825",
+          "buildId": "27970625825",
+          "files": [
+            "numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "packaging-26.2-py3-none-any.whl",
+            "pandas-3.0.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+            "patsy-1.0.2-py2.py3-none-any.whl",
+            "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "scipy-1.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "six-1.17.0-py2.py3-none-any.whl",
+            "statsmodels-0.14.6-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],

@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 56
+- **Active packages:** 57
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`statsmodels`](#statsmodels) | `0.14.6` | 2026-06-22 |
 | [`sqlalchemy`](#sqlalchemy) | `2.0.51` | 2026-06-22 |
 | [`spacy`](#spacy) | `3.8.14` | 2026-06-22 |
 | [`seaborn`](#seaborn) | `0.13.2` | 2026-06-22 |
 | [`scipy`](#scipy) | `1.18.0` | 2026-06-22 |
-| [`scikit-learn`](#scikit-learn) | `1.9.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -730,6 +730,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/sqlalchemy-v2.0.51.txt
 ```
 
+#### `statsmodels`
+- **Latest version:** `0.14.6`
+- **Validated:** 2026-06-22
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/statsmodels-0.14.6-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/statsmodels-v0.14.6)
+- **Validation run:** [build #27970625825](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970625825)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/statsmodels-v0.14.6.txt
+```
+
 
 ## 🚀 Usage Instructions
 
@@ -777,6 +789,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:41 UTC*
+*Last updated: 2026-06-22 20:42 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

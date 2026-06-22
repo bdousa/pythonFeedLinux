@@ -1,0 +1,9 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/packaging-26.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/pandas-3.0.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/patsy-1.0.2-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/scipy-1.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/six-1.17.0-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/statsmodels-v0.14.6/statsmodels-0.14.6-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
