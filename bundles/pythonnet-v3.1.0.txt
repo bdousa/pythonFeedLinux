@@ -1,0 +1,5 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/pythonnet-v3.1.0/cffi-2.0.0b1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pythonnet-v3.1.0/clr_loader-0.3.1-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pythonnet-v3.1.0/pycparser-3.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pythonnet-v3.1.0/pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl

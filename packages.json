@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:26:40.019073Z",
+  "generatedAt": "2026-06-22T20:27:52.807626Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1358,6 +1358,31 @@
           "buildId": "27970539517",
           "files": [
             "python_dotenv-1.2.2-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pythonnet": {
+      "name": "pythonnet",
+      "latestVersion": "3.1.0",
+      "latestReleaseTag": "pythonnet-v3.1.0",
+      "versions": [
+        {
+          "version": "3.1.0",
+          "releaseTag": "pythonnet-v3.1.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pythonnet-v3.1.0/pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl",
+          "packageType": "Wheel (check compatibility)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pythonnet-v3.1.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970546082",
+          "buildId": "27970546082",
+          "files": [
+            "cffi-2.0.0b1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "clr_loader-0.3.1-py3-none-any.whl",
+            "pycparser-3.0-py3-none-any.whl",
+            "pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl"
           ]
         }
       ],

@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 45
+- **Active packages:** 46
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`pythonnet`](#pythonnet) | `3.1.0` | 2026-06-22 |
 | [`python-dotenv`](#python-dotenv) | `1.2.2` | 2026-06-22 |
 | [`python-docx`](#python-docx) | `1.2.0` | 2026-06-22 |
 | [`python-dateutil`](#python-dateutil) | `2.9.0.post0` | 2026-06-22 |
-| [`pytest-cov`](#pytest-cov) | `7.1.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -582,6 +582,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/python-dotenv-v1.2.2/python_dotenv-1.2.2-py3-none-any.whl
 ```
 
+#### `pythonnet`
+- **Latest version:** `3.1.0`
+- **Validated:** 2026-06-22
+- **Package type:** Wheel (check compatibility)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/pythonnet-v3.1.0/pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/pythonnet-v3.1.0)
+- **Validation run:** [build #27970546082](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970546082)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/pythonnet-v3.1.0.txt
+```
+
 ### R
 
 #### `requests`
@@ -643,6 +655,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:26 UTC*
+*Last updated: 2026-06-22 20:27 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
