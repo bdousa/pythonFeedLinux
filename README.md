@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 3
+- **Active packages:** 4
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,6 +25,7 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`azure-datalake-store`](#azure-datalake-store) | `1.0.1` | 2026-06-22 |
 | [`azure-ai-transcription`](#azure-ai-transcription) | `1.0.0` | 2026-06-22 |
 | [`azure-ai-projects`](#azure-ai-projects) | `1.0.0` | 2026-06-22 |
 
@@ -54,6 +55,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-ai-transcription-v1.0.0.txt
+```
+
+#### `azure-datalake-store`
+- **Latest version:** `1.0.1`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-datalake-store-v1.0.1/azure_datalake_store-1.0.1-py2.py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-datalake-store-v1.0.1)
+- **Validation run:** [build #27970239100](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970239100)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-datalake-store-v1.0.1.txt
 ```
 
 ### R
@@ -117,6 +130,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 18:13 UTC*
+*Last updated: 2026-06-22 18:15 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
