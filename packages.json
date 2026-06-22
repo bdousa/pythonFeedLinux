@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:24:33.795533Z",
+  "generatedAt": "2026-06-22T20:25:09.729360Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1289,6 +1289,29 @@
             "pygments-2.20.0-py3-none-any.whl",
             "pytest-9.1.1-py3-none-any.whl",
             "pytest_cov-7.1.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "python-dateutil": {
+      "name": "python-dateutil",
+      "latestVersion": "2.9.0.post0",
+      "latestReleaseTag": "python-dateutil-v2.9.0.post0",
+      "versions": [
+        {
+          "version": "2.9.0.post0",
+          "releaseTag": "python-dateutil-v2.9.0.post0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/python-dateutil-v2.9.0.post0/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/python-dateutil-v2.9.0.post0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970526195",
+          "buildId": "27970526195",
+          "files": [
+            "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "six-1.17.0-py2.py3-none-any.whl"
           ]
         }
       ],
