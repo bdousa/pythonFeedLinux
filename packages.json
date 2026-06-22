@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:20:15.744199Z",
+  "generatedAt": "2026-06-22T20:24:33.795533Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1261,6 +1261,34 @@
             "pygments-2.20.0-py3-none-any.whl",
             "pytest-9.1.1-py3-none-any.whl",
             "pytest_asyncio-1.4.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pytest-cov": {
+      "name": "pytest-cov",
+      "latestVersion": "7.1.0",
+      "latestReleaseTag": "pytest-cov-v7.1.0",
+      "versions": [
+        {
+          "version": "7.1.0",
+          "releaseTag": "pytest-cov-v7.1.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/pytest_cov-7.1.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pytest-cov-v7.1.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970519745",
+          "buildId": "27970519745",
+          "files": [
+            "coverage-7.14.2-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+            "iniconfig-2.3.0-py3-none-any.whl",
+            "packaging-26.2-py3-none-any.whl",
+            "pluggy-1.6.0-py3-none-any.whl",
+            "pygments-2.20.0-py3-none-any.whl",
+            "pytest-9.1.1-py3-none-any.whl",
+            "pytest_cov-7.1.0-py3-none-any.whl"
           ]
         }
       ],

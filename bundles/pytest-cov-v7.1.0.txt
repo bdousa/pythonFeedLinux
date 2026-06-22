@@ -1,0 +1,8 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/coverage-7.14.2-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/iniconfig-2.3.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/packaging-26.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/pluggy-1.6.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/pygments-2.20.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/pytest-9.1.1-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-cov-v7.1.0/pytest_cov-7.1.0-py3-none-any.whl
