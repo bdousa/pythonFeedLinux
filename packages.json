@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:02:08.389560Z",
+  "generatedAt": "2026-06-22T20:03:28.815424Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -835,6 +835,37 @@
             "pyparsing-3.3.2-py3-none-any.whl",
             "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
             "six-1.17.0-py2.py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "msal": {
+      "name": "msal",
+      "latestVersion": "1.37.0",
+      "latestReleaseTag": "msal-v1.37.0",
+      "versions": [
+        {
+          "version": "1.37.0",
+          "releaseTag": "msal-v1.37.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/msal-v1.37.0/msal-1.37.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/msal-v1.37.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970404296",
+          "buildId": "27970404296",
+          "files": [
+            "certifi-2026.6.17-py3-none-any.whl",
+            "cffi-2.0.0b1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "cryptography-46.0.0-cp311-abi3-manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "msal-1.37.0-py3-none-any.whl",
+            "pycparser-3.0-py3-none-any.whl",
+            "pyjwt-2.13.0-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
           ]
         }
       ],
