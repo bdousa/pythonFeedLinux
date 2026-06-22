@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 37
+- **Active packages:** 38
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`pyspark`](#pyspark) | `4.1.2` | 2026-06-22 |
 | [`pypdf`](#pypdf) | `6.14.0` | 2026-06-22 |
 | [`pyodbc`](#pyodbc) | `5.3.0` | 2026-06-22 |
 | [`pyjwt`](#pyjwt) | `2.13.0` | 2026-06-22 |
-| [`pyarrow`](#pyarrow) | `24.0.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -486,6 +486,18 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyodbc-v
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pypdf-v6.14.0/pypdf-6.14.0-py3-none-any.whl
 ```
 
+#### `pyspark`
+- **Latest version:** `4.1.2`
+- **Validated:** 2026-06-22
+- **Package type:** Source distribution
+- **Download source distribution:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/pyspark-v4.1.2/pyspark-4.1.2.tar.gz)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/pyspark-v4.1.2)
+- **Validation run:** [build #27970493288](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970493288)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/pyspark-v4.1.2.txt
+```
+
 ### R
 
 #### `requests`
@@ -547,6 +559,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:14 UTC*
+*Last updated: 2026-06-22 20:16 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

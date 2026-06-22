@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:14:21.115227Z",
+  "generatedAt": "2026-06-22T20:16:11.877376Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1161,6 +1161,29 @@
           "buildId": "27970486830",
           "files": [
             "pypdf-6.14.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pyspark": {
+      "name": "pyspark",
+      "latestVersion": "4.1.2",
+      "latestReleaseTag": "pyspark-v4.1.2",
+      "versions": [
+        {
+          "version": "4.1.2",
+          "releaseTag": "pyspark-v4.1.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyspark-v4.1.2/pyspark-4.1.2.tar.gz",
+          "packageType": "Source distribution",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pyspark-v4.1.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970493288",
+          "buildId": "27970493288",
+          "files": [
+            "py4j-0.10.9.9.tar.gz",
+            "pyspark-4.1.2.tar.gz"
           ]
         }
       ],
