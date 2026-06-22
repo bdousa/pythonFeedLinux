@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 26
+- **Active packages:** 27
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`numpy`](#numpy) | `2.5.0` | 2026-06-22 |
 | [`nltk`](#nltk) | `3.9.4` | 2026-06-22 |
 | [`msal`](#msal) | `1.37.0` | 2026-06-22 |
 | [`matplotlib`](#matplotlib) | `3.11.0` | 2026-06-22 |
-| [`lxml`](#lxml) | `6.1.1` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -350,6 +350,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/nltk-v3.9.4.txt
 ```
 
+#### `numpy`
+- **Latest version:** `2.5.0`
+- **Validated:** 2026-06-22
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/numpy-v2.5.0/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/numpy-v2.5.0)
+- **Validation run:** [build #27970417181](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970417181)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/numpy-v2.5.0/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+```
+
 ### R
 
 #### `requests`
@@ -411,6 +423,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:04 UTC*
+*Last updated: 2026-06-22 20:05 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

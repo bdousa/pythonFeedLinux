@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:04:12.955079Z",
+  "generatedAt": "2026-06-22T20:05:03.500979Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -892,6 +892,28 @@
             "nltk-3.9.4-py3-none-any.whl",
             "regex-2026.5.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "tqdm-4.68.3-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "numpy": {
+      "name": "numpy",
+      "latestVersion": "2.5.0",
+      "latestReleaseTag": "numpy-v2.5.0",
+      "versions": [
+        {
+          "version": "2.5.0",
+          "releaseTag": "numpy-v2.5.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/numpy-v2.5.0/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/numpy-v2.5.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970417181",
+          "buildId": "27970417181",
+          "files": [
+            "numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],
