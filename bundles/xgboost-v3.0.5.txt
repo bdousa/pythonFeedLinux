@@ -1,0 +1,4 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/xgboost-v3.0.5/numpy-2.2.6-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/xgboost-v3.0.5/scipy-1.16.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/xgboost-v3.0.5/xgboost-3.0.5-py3-none-manylinux2014_x86_64.whl

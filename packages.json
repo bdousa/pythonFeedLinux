@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:45:51.431416Z",
+  "generatedAt": "2026-06-22T20:47:14.927685Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1804,6 +1804,30 @@
             "requests-2.34.2-py3-none-any.whl",
             "tiktoken-0.13.0-cp313-cp313-manylinux_2_28_x86_64.whl",
             "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "xgboost": {
+      "name": "xgboost",
+      "latestVersion": "3.0.5",
+      "latestReleaseTag": "xgboost-v3.0.5",
+      "versions": [
+        {
+          "version": "3.0.5",
+          "releaseTag": "xgboost-v3.0.5",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/xgboost-v3.0.5/xgboost-3.0.5-py3-none-manylinux2014_x86_64.whl",
+          "packageType": "Wheel (check compatibility)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/xgboost-v3.0.5",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970659028",
+          "buildId": "27970659028",
+          "files": [
+            "numpy-2.2.6-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "scipy-1.16.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "xgboost-3.0.5-py3-none-manylinux2014_x86_64.whl"
           ]
         }
       ],

@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 60
+- **Active packages:** 61
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [X](#x)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`xgboost`](#xgboost) | `3.0.5` | 2026-06-22 |
 | [`tiktoken`](#tiktoken) | `0.13.0` | 2026-06-22 |
 | [`tabula-py`](#tabula-py) | `2.10.0` | 2026-06-22 |
 | [`streamlit`](#streamlit) | `0.8` | 2026-06-22 |
 | [`statsmodels`](#statsmodels) | `0.14.6` | 2026-06-22 |
-| [`sqlalchemy`](#sqlalchemy) | `2.0.51` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -780,6 +780,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/tiktoken-v0.13.0.txt
 ```
 
+### X
+
+#### `xgboost`
+- **Latest version:** `3.0.5`
+- **Validated:** 2026-06-22
+- **Package type:** Wheel (check compatibility)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/xgboost-v3.0.5/xgboost-3.0.5-py3-none-manylinux2014_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/xgboost-v3.0.5)
+- **Validation run:** [build #27970659028](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970659028)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/xgboost-v3.0.5.txt
+```
+
 
 ## 🚀 Usage Instructions
 
@@ -827,6 +841,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:45 UTC*
+*Last updated: 2026-06-22 20:47 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
