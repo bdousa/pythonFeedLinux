@@ -397,13 +397,11 @@ jobs:
 
       - name: Publish validated package
         env:
-          GH_TOKEN: ${{ github.token }}
-          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
           REPO_WRITE_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
         run: |
-          auth_token="${GITHUB_TOKEN:-${REPO_WRITE_TOKEN:-}}"
-          if [[ -z "$auth_token" ]]; then
-            echo 'Missing authentication token for publish step.' >&2
+          if [[ -z "${GH_TOKEN:-}" ]]; then
+            echo 'Missing required secret: REPO_WRITE_TOKEN' >&2
             exit 1
           fi
           if ! command -v gh >/dev/null 2>&1; then
@@ -445,7 +443,7 @@ jobs:
           target_github_repo="${TARGET_GITHUB_REPOSITORY#*/}"
 
           if ! gh repo view "$TARGET_GITHUB_REPOSITORY" --json name >/dev/null; then
-            echo "Publish token cannot access $TARGET_GITHUB_REPOSITORY. github.token should work for same-repo publishes; if this repository uses a PAT instead, verify it is granted to this repository." >&2
+            echo "REPO_WRITE_TOKEN cannot access $TARGET_GITHUB_REPOSITORY. Verify the PAT has Contents: Read and write and Metadata: Read access to this repository." >&2
             exit 1
           fi
 
@@ -547,26 +545,52 @@ jobs:
           release_notes_file='release-notes.md'
           if [[ -f publish_inputs/review_output/approval-report.md ]]; then
             release_notes_file='publish_inputs/review_output/approval-report.md'
+          else
+            echo 'Approval report Markdown not found. Falling back to generated release notes.'
           fi
 
           if [[ "$tag_already_exists" == "false" ]]; then
             gh release create "$release_tag" --repo "$TARGET_GITHUB_REPOSITORY" --title "$PACKAGE_NAME v$version_display - Security Validated" --notes-file "$release_notes_file"
+            if [[ $? -ne 0 ]]; then
+              echo "Failed to create GitHub release $release_tag." >&2
+              exit 1
+            fi
           else
             gh release edit "$release_tag" --repo "$TARGET_GITHUB_REPOSITORY" --title "$PACKAGE_NAME v$version_display - Security Validated" --notes-file "$release_notes_file"
+            if [[ $? -ne 0 ]]; then
+              echo "Failed to update GitHub release $release_tag notes." >&2
+              exit 1
+            fi
           fi
 
           for file in "${package_files[@]}"; do
             gh release upload "$release_tag" "$file" --repo "$TARGET_GITHUB_REPOSITORY" --clobber
+            if [[ $? -ne 0 ]]; then
+              echo "Failed to upload $(basename "$file") to release $release_tag." >&2
+              exit 1
+            fi
           done
           for report_file in publish_inputs/review_output/approval-report.md publish_inputs/review_output/approval-report.json; do
             if [[ -f "$report_file" ]]; then
               gh release upload "$release_tag" "$report_file" --repo "$TARGET_GITHUB_REPOSITORY" --clobber
+              if [[ $? -ne 0 ]]; then
+                echo "Failed to upload $report_file to release $release_tag." >&2
+                exit 1
+              fi
             fi
           done
 
-          remote_url="https://x-access-token:${auth_token}@github.com/${{ github.repository }}.git"
+          remote_url="https://x-access-token:${REPO_WRITE_TOKEN}@github.com/${{ github.repository }}.git"
           git fetch "$remote_url" main
+          if [[ $? -ne 0 ]]; then
+            echo 'Failed to fetch latest main before manifest update.' >&2
+            exit 1
+          fi
           git checkout -B main FETCH_HEAD
+          if [[ $? -ne 0 ]]; then
+            echo 'Failed to reset checkout to latest main before manifest update.' >&2
+            exit 1
+          fi
           python scripts/manifest_tools.py upsert-release \
             --manifest-path packages.json \
             --manifest-output packages.json \
@@ -578,6 +602,10 @@ jobs:
             --repo-name "$target_github_repo" \
             --pipeline-url "$RUN_URL" \
             --build-id "$GITHUB_RUN_ID"
+          if [[ $? -ne 0 ]]; then
+            echo 'Failed to update manifest and README for published package.' >&2
+            exit 1
+          fi
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -587,4 +615,12 @@ jobs:
             exit 0
           fi
           git commit -m "Publish $PACKAGE_NAME v$version_display (manifest update)"
+          if [[ $? -ne 0 ]]; then
+            echo 'Failed to commit manifest update.' >&2
+            exit 1
+          fi
           git push "$remote_url" HEAD:main
+          if [[ $? -ne 0 ]]; then
+            echo 'Failed to push manifest update.' >&2
+            exit 1
+          fi
