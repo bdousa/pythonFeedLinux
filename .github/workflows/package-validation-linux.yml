@@ -28,8 +28,7 @@ defaults:
 env:
   PACKAGE_NAME: ${{ inputs.package_name }}
   PACKAGE_VERSION: ${{ inputs.package_version }}
-  TARGET_GITHUB_ORG: ${{ github.repository_owner }}
-  TARGET_GITHUB_REPO: ${{ github.event.repository.name }}
+  TARGET_GITHUB_REPOSITORY: ${{ github.repository }}
   SNYK_ORG: ${{ secrets.SNYK_ORG }}
   RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
@@ -258,6 +257,12 @@ jobs:
 
       - name: Generate manifest and README preview
         run: |
+          if [[ "$TARGET_GITHUB_REPOSITORY" != */* ]]; then
+            echo "Invalid GitHub repository slug: $TARGET_GITHUB_REPOSITORY" >&2
+            exit 1
+          fi
+          target_github_org="${TARGET_GITHUB_REPOSITORY%/*}"
+          target_github_repo="${TARGET_GITHUB_REPOSITORY#*/}"
           mkdir -p preview_output
           python scripts/manifest_tools.py upsert-release \
             --manifest-path packages.json \
@@ -266,8 +271,8 @@ jobs:
             --package-name "$PACKAGE_NAME" \
             --package-version "$PACKAGE_VERSION" \
             --package-dir package_download \
-            --repo-owner "$TARGET_GITHUB_ORG" \
-            --repo-name "$TARGET_GITHUB_REPO" \
+            --repo-owner "$target_github_org" \
+            --repo-name "$target_github_repo" \
             --pipeline-url "$RUN_URL" \
             --build-id "$GITHUB_RUN_ID"
 
@@ -430,7 +435,14 @@ jobs:
             exit 1
           fi
 
-          gh repo view "$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO" --json name >/dev/null
+          if [[ "$TARGET_GITHUB_REPOSITORY" != */* ]]; then
+            echo "Invalid GitHub repository slug: $TARGET_GITHUB_REPOSITORY" >&2
+            exit 1
+          fi
+          target_github_org="${TARGET_GITHUB_REPOSITORY%/*}"
+          target_github_repo="${TARGET_GITHUB_REPOSITORY#*/}"
+
+          gh repo view "$TARGET_GITHUB_REPOSITORY" --json name >/dev/null
 
           actual_version=""
           normalized_package_name="${PACKAGE_NAME//-/_}"
@@ -463,7 +475,7 @@ jobs:
             version_display="latest"
           fi
 
-          if gh release view "$release_tag" --repo "$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO" >/dev/null 2>&1; then
+          if gh release view "$release_tag" --repo "$TARGET_GITHUB_REPOSITORY" >/dev/null 2>&1; then
             tag_already_exists=true
           else
             tag_already_exists=false
@@ -503,7 +515,7 @@ jobs:
             exit 1
           fi
           filename="$(basename "$select_file")"
-          install_cmd="pip install https://github.com/$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO/releases/download/$release_tag/$filename"
+          install_cmd="pip install https://github.com/$TARGET_GITHUB_REPOSITORY/releases/download/$release_tag/$filename"
           package_files_list="$(printf -- '- %s\n' "${package_files[@]##*/}")"
           cat > release-notes.md <<EOF
           Security Validated Package
@@ -533,17 +545,17 @@ jobs:
           fi
 
           if [[ "$tag_already_exists" == "false" ]]; then
-            gh release create "$release_tag" --repo "$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO" --title "$PACKAGE_NAME v$version_display - Security Validated" --notes-file "$release_notes_file"
+            gh release create "$release_tag" --repo "$TARGET_GITHUB_REPOSITORY" --title "$PACKAGE_NAME v$version_display - Security Validated" --notes-file "$release_notes_file"
           else
-            gh release edit "$release_tag" --repo "$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO" --title "$PACKAGE_NAME v$version_display - Security Validated" --notes-file "$release_notes_file"
+            gh release edit "$release_tag" --repo "$TARGET_GITHUB_REPOSITORY" --title "$PACKAGE_NAME v$version_display - Security Validated" --notes-file "$release_notes_file"
           fi
 
           for file in "${package_files[@]}"; do
-            gh release upload "$release_tag" "$file" --repo "$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO" --clobber
+            gh release upload "$release_tag" "$file" --repo "$TARGET_GITHUB_REPOSITORY" --clobber
           done
           for report_file in publish_inputs/review_output/approval-report.md publish_inputs/review_output/approval-report.json; do
             if [[ -f "$report_file" ]]; then
-              gh release upload "$release_tag" "$report_file" --repo "$TARGET_GITHUB_ORG/$TARGET_GITHUB_REPO" --clobber
+              gh release upload "$release_tag" "$report_file" --repo "$TARGET_GITHUB_REPOSITORY" --clobber
             fi
           done
 
@@ -557,8 +569,8 @@ jobs:
             --package-name "$PACKAGE_NAME" \
             --package-version "$PACKAGE_VERSION" \
             --package-dir package_publish \
-            --repo-owner "$TARGET_GITHUB_ORG" \
-            --repo-name "$TARGET_GITHUB_REPO" \
+            --repo-owner "$target_github_org" \
+            --repo-name "$target_github_repo" \
             --pipeline-url "$RUN_URL" \
             --build-id "$GITHUB_RUN_ID"
 
