@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:09:28.709392Z",
+  "generatedAt": "2026-06-22T20:10:14.954533Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1049,6 +1049,30 @@
           "buildId": "27970449154",
           "files": [
             "pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "plotly": {
+      "name": "plotly",
+      "latestVersion": "6.8.0",
+      "latestReleaseTag": "plotly-v6.8.0",
+      "versions": [
+        {
+          "version": "6.8.0",
+          "releaseTag": "plotly-v6.8.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/plotly-v6.8.0/plotly-6.8.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/plotly-v6.8.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970454952",
+          "buildId": "27970454952",
+          "files": [
+            "narwhals-2.22.1-py3-none-any.whl",
+            "packaging-26.2-py3-none-any.whl",
+            "plotly-6.8.0-py3-none-any.whl"
           ]
         }
       ],
