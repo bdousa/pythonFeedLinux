@@ -397,11 +397,13 @@ jobs:
 
       - name: Publish validated package
         env:
-          GH_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
           REPO_WRITE_TOKEN: ${{ secrets.REPO_WRITE_TOKEN }}
         run: |
-          if [[ -z "${GH_TOKEN:-}" ]]; then
-            echo 'Missing required secret: REPO_WRITE_TOKEN' >&2
+          auth_token="${GITHUB_TOKEN:-${REPO_WRITE_TOKEN:-}}"
+          if [[ -z "$auth_token" ]]; then
+            echo 'Missing authentication token for publish step.' >&2
             exit 1
           fi
           if ! command -v gh >/dev/null 2>&1; then
@@ -442,7 +444,10 @@ jobs:
           target_github_org="${TARGET_GITHUB_REPOSITORY%/*}"
           target_github_repo="${TARGET_GITHUB_REPOSITORY#*/}"
 
-          gh repo view "$TARGET_GITHUB_REPOSITORY" --json name >/dev/null
+          if ! gh repo view "$TARGET_GITHUB_REPOSITORY" --json name >/dev/null; then
+            echo "Publish token cannot access $TARGET_GITHUB_REPOSITORY. github.token should work for same-repo publishes; if this repository uses a PAT instead, verify it is granted to this repository." >&2
+            exit 1
+          fi
 
           actual_version=""
           normalized_package_name="${PACKAGE_NAME//-/_}"
@@ -559,7 +564,7 @@ jobs:
             fi
           done
 
-          remote_url="https://x-access-token:${REPO_WRITE_TOKEN}@github.com/${{ github.repository }}.git"
+          remote_url="https://x-access-token:${auth_token}@github.com/${{ github.repository }}.git"
           git fetch "$remote_url" main
           git checkout -B main FETCH_HEAD
           python scripts/manifest_tools.py upsert-release \
