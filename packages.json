@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:27:52.807626Z",
+  "generatedAt": "2026-06-22T20:28:54.345624Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1383,6 +1383,28 @@
             "clr_loader-0.3.1-py3-none-any.whl",
             "pycparser-3.0-py3-none-any.whl",
             "pythonnet-3.1.0-cp310.cp311.cp312.cp313.cp314-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pyyaml": {
+      "name": "pyyaml",
+      "latestVersion": "6.0.3",
+      "latestReleaseTag": "pyyaml-v6.0.3",
+      "versions": [
+        {
+          "version": "6.0.3",
+          "releaseTag": "pyyaml-v6.0.3",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyyaml-v6.0.3/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pyyaml-v6.0.3",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970553180",
+          "buildId": "27970553180",
+          "files": [
+            "pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],
