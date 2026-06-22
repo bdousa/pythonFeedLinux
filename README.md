@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 8
+- **Active packages:** 9
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`azure-mgmt-datalake-store`](#azure-mgmt-datalake-store) | `0.5.0` | 2026-06-22 |
 | [`azure-keyvault-secrets`](#azure-keyvault-secrets) | `4.11.0` | 2026-06-22 |
 | [`azure-identity`](#azure-identity) | `1.25.3` | 2026-06-22 |
 | [`azure-functions-durable`](#azure-functions-durable) | `1.5.0` | 2026-06-22 |
-| [`azure-functions`](#azure-functions) | `2.1.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -118,6 +118,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-keyvault-secrets-v4.11.0.txt
 ```
 
+#### `azure-mgmt-datalake-store`
+- **Latest version:** `0.5.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-mgmt-datalake-store-v0.5.0/azure_mgmt_datalake_store-0.5.0-py2.py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-mgmt-datalake-store-v0.5.0)
+- **Validation run:** [build #27970270758](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970270758)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-mgmt-datalake-store-v0.5.0.txt
+```
+
 ### R
 
 #### `requests`
@@ -179,6 +191,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 18:20 UTC*
+*Last updated: 2026-06-22 18:26 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
