@@ -1,361 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T16:29:09.058667Z",
+  "generatedAt": "2026-06-22T16:33:35.652871Z",
   "packages": {
-    "azure-datalake-store": {
-      "name": "azure-datalake-store",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "azure-functions": {
-      "name": "azure-functions",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "azure-identity": {
-      "name": "azure-identity",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "azure-keyvault-secrets": {
-      "name": "azure-keyvault-secrets",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "azure-mgmt-datalake-store": {
-      "name": "azure-mgmt-datalake-store",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "azure-storage-blob": {
-      "name": "azure-storage-blob",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "black": {
-      "name": "black",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "chardet": {
-      "name": "chardet",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "datalake": {
-      "name": "datalake",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "deltalake": {
-      "name": "deltalake",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "fastexcel": {
-      "name": "fastexcel",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "fsspec": {
-      "name": "fsspec",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "lxml": {
-      "name": "lxml",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "matplotlib": {
-      "name": "matplotlib",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "msal": {
-      "name": "msal",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "numpy": {
-      "name": "numpy",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "openpyxl": {
-      "name": "openpyxl",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pandas": {
-      "name": "pandas",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pillow": {
-      "name": "pillow",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "polars": {
-      "name": "polars",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pyarrow": {
-      "name": "pyarrow",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pyodbc": {
-      "name": "pyodbc",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pypdf": {
-      "name": "pypdf",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pyspark": {
-      "name": "pyspark",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pytesseract": {
-      "name": "pytesseract",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pytest": {
-      "name": "pytest",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pytest-asyncio": {
-      "name": "pytest-asyncio",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pytest-cov": {
-      "name": "pytest-cov",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "python-dotenv": {
-      "name": "python-dotenv",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pythonnet": {
-      "name": "pythonnet",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pyyaml": {
-      "name": "pyyaml",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pyzipper": {
-      "name": "pyzipper",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "pyzt": {
-      "name": "pyzt",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "reportlab": {
-      "name": "reportlab",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "requests": {
-      "name": "requests",
-      "lifecycleState": "active",
-      "latestVersion": "2.34.2",
-      "latestReleaseTag": "requests-v2.34.2",
-      "versions": [
-        {
-          "version": "2.34.2",
-          "releaseTag": "requests-v2.34.2",
-          "validationDate": "2026-06-22",
-          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/requests-v2.34.2/requests-2.34.2-py3-none-any.whl",
-          "packageType": "Universal wheel (Python 3+)",
-          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/requests-v2.34.2",
-          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27967793908",
-          "buildId": "27967793908",
-          "files": [
-            "certifi-2026.6.17-py3-none-any.whl",
-            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "idna-3.18-py3-none-any.whl",
-            "requests-2.34.2-py3-none-any.whl",
-            "urllib3-2.7.0-py3-none-any.whl"
-          ]
-        }
-      ],
-      "installable": true
-    },
-    "ruff": {
-      "name": "ruff",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "seaborn": {
-      "name": "seaborn",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "sqlalchemy": {
-      "name": "sqlalchemy",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "tabula-py": {
-      "name": "tabula-py",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "uv": {
-      "name": "uv",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "xlrd": {
-      "name": "xlrd",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
-    "xlsxwriter": {
-      "name": "xlsxwriter",
-      "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
-      "installable": true
-    },
     "azure-ai-projects": {
       "name": "azure-ai-projects",
       "latestVersion": "1.0.0",
@@ -384,6 +30,32 @@
             "pycparser-3.0-py3-none-any.whl",
             "requests-2.34.2-py3-none-any.whl",
             "typing_extensions-4.15.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "requests": {
+      "name": "requests",
+      "latestVersion": "2.34.2",
+      "latestReleaseTag": "requests-v2.34.2",
+      "versions": [
+        {
+          "version": "2.34.2",
+          "releaseTag": "requests-v2.34.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/requests-v2.34.2/requests-2.34.2-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/requests-v2.34.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27967793908",
+          "buildId": "27967793908",
+          "files": [
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
           ]
         }

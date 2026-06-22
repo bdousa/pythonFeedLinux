@@ -7,9 +7,9 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 43
+- **Active packages:** 2
 - **Deprecated packages:** 0
-- **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
+- **Most recent validation:** 2026-06-22 (`requests`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
 
 ## ✅ Requirements
@@ -18,7 +18,7 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [X](#x)
+[A](#a) · [R](#r)
 
 ## 🆕 Recently Validated
 
@@ -43,297 +43,7 @@ This repository contains Python packages validated through automated security sc
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-ai-projects-v1.0.0.txt
 ```
 
-#### `azure-datalake-store`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `azure-functions`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `azure-identity`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `azure-keyvault-secrets`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `azure-mgmt-datalake-store`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `azure-storage-blob`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### B
-
-#### `black`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### C
-
-#### `chardet`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### D
-
-#### `datalake`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `deltalake`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### F
-
-#### `fastexcel`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `fsspec`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### L
-
-#### `lxml`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### M
-
-#### `matplotlib`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `msal`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### N
-
-#### `numpy`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### O
-
-#### `openpyxl`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### P
-
-#### `pandas`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pillow`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `polars`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pyarrow`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pyodbc`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pypdf`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pyspark`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pytesseract`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pytest`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pytest-asyncio`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pytest-cov`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `python-dotenv`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pythonnet`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pyyaml`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pyzipper`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `pyzt`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
 ### R
-
-#### `reportlab`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
 
 #### `requests`
 - **Latest version:** `2.34.2`
@@ -346,71 +56,6 @@ pip install <package-url>
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/requests-v2.34.2.txt
 ```
-
-#### `ruff`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### S
-
-#### `seaborn`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `sqlalchemy`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### T
-
-#### `tabula-py`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### U
-
-#### `uv`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-### X
-
-#### `xlrd`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
-#### `xlsxwriter`
-- **Latest version:** ``
-- **Validated:** unknown
-- **Quick command:**
-```text
-pip install <package-url>
-```
-
 
 ## 🚀 Usage Instructions
 
@@ -440,7 +85,7 @@ Use the quick install commands from the package sections above.
 Create a requirements.txt with direct GitHub URLs:
 ```
 https://github.com/bdousa/pythonFeedLinux/releases/download/requests-v2.34.2/requests-2.34.2-py3-none-any.whl
-https://github.com/bdousa/pythonFeedLinux/releases/download/numpy-v2.4.6/numpy-2.4.6-cp313-cp313-manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/azure-ai-projects-v1.0.0/azure_ai_projects-1.0.0-py3-none-any.whl
 ```
 
 ## 🔍 Security Validation Process
@@ -458,6 +103,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 16:29 UTC*
+*Last updated: 2026-06-22 16:33 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

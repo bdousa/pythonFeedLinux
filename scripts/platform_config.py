@@ -13,7 +13,7 @@ USER_AGENT_PREFIX = "pythonFeedLinux"
 EXAMPLE_RELEASE_OWNER = "bdousa"
 EXAMPLE_RELEASE_REPO = REPO_NAME
 EXAMPLE_UNIVERSAL_URL = f"https://github.com/{EXAMPLE_RELEASE_OWNER}/{EXAMPLE_RELEASE_REPO}/releases/download/requests-v2.34.2/requests-2.34.2-py3-none-any.whl"
-EXAMPLE_PLATFORM_URL = f"https://github.com/{EXAMPLE_RELEASE_OWNER}/{EXAMPLE_RELEASE_REPO}/releases/download/numpy-v2.4.6/numpy-2.4.6-cp313-cp313-manylinux_2_28_x86_64.whl"
+EXAMPLE_PLATFORM_URL = f"https://github.com/{EXAMPLE_RELEASE_OWNER}/{EXAMPLE_RELEASE_REPO}/releases/download/azure-ai-projects-v1.0.0/azure_ai_projects-1.0.0-py3-none-any.whl"
 PREFERRED_WHEEL_PATTERNS = (
     re.compile(r"cp313-[^-]*-manylinux[^/]*x86_64\.whl$"),
     re.compile(r"cp313-[^-]*-musllinux[^/]*x86_64\.whl$"),
