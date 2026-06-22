@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 13
+- **Active packages:** 14
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`deltalake`](#deltalake) | `1.6.0` | 2026-06-22 |
 | [`deepagents`](#deepagents) | `0.6.11` | 2026-06-22 |
 | [`chardet`](#chardet) | `7.4.3` | 2026-06-22 |
 | [`black`](#black) | `26.5.1` | 2026-06-22 |
-| [`azure-storage-blob`](#azure-storage-blob) | `12.30.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -182,6 +182,18 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/chardet-
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/deepagents-v0.6.11.txt
+```
+
+#### `deltalake`
+- **Latest version:** `1.6.0`
+- **Validated:** 2026-06-22
+- **Package type:** Wheel (check compatibility)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/deltalake-v1.6.0/deltalake-1.6.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/deltalake-v1.6.0)
+- **Validation run:** [build #27970307958](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970307958)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/deltalake-v1.6.0.txt
 ```
 
 ### R
