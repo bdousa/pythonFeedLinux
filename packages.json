@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:17:48.994463Z",
+  "generatedAt": "2026-06-22T20:19:28.742370Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1208,6 +1208,32 @@
             "packaging-26.2-py3-none-any.whl",
             "pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
             "pytesseract-0.3.13-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pytest": {
+      "name": "pytest",
+      "latestVersion": "9.1.1",
+      "latestReleaseTag": "pytest-v9.1.1",
+      "versions": [
+        {
+          "version": "9.1.1",
+          "releaseTag": "pytest-v9.1.1",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pytest-v9.1.1/pytest-9.1.1-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pytest-v9.1.1",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970506656",
+          "buildId": "27970506656",
+          "files": [
+            "iniconfig-2.3.0-py3-none-any.whl",
+            "packaging-26.2-py3-none-any.whl",
+            "pluggy-1.6.0-py3-none-any.whl",
+            "pygments-2.20.0-py3-none-any.whl",
+            "pytest-9.1.1-py3-none-any.whl"
           ]
         }
       ],
