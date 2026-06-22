@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:47:14.927685Z",
+  "generatedAt": "2026-06-22T20:48:17.846964Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1828,6 +1828,28 @@
             "numpy-2.2.6-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
             "scipy-1.16.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
             "xgboost-3.0.5-py3-none-manylinux2014_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "xlrd": {
+      "name": "xlrd",
+      "latestVersion": "2.0.2",
+      "latestReleaseTag": "xlrd-v2.0.2",
+      "versions": [
+        {
+          "version": "2.0.2",
+          "releaseTag": "xlrd-v2.0.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/xlrd-v2.0.2/xlrd-2.0.2-py2.py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/xlrd-v2.0.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970666152",
+          "buildId": "27970666152",
+          "files": [
+            "xlrd-2.0.2-py2.py3-none-any.whl"
           ]
         }
       ],
