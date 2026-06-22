@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:32:15.978995Z",
+  "generatedAt": "2026-06-22T20:34:53.278158Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1503,6 +1503,33 @@
           "buildId": "27970579442",
           "files": [
             "restrictedpython-8.3-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "scikit-learn": {
+      "name": "scikit-learn",
+      "latestVersion": "1.9.0",
+      "latestReleaseTag": "scikit-learn-v1.9.0",
+      "versions": [
+        {
+          "version": "1.9.0",
+          "releaseTag": "scikit-learn-v1.9.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/scikit-learn-v1.9.0/scikit_learn-1.9.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/scikit-learn-v1.9.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970592235",
+          "buildId": "27970592235",
+          "files": [
+            "joblib-1.5.3-py3-none-any.whl",
+            "narwhals-2.22.1-py3-none-any.whl",
+            "numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "scikit_learn-1.9.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "scipy-1.18.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "threadpoolctl-3.6.0-py3-none-any.whl"
           ]
         }
       ],
