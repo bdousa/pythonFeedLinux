@@ -1,0 +1,4 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/sqlalchemy-v2.0.51/greenlet-3.5.2-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/sqlalchemy-v2.0.51/sqlalchemy-2.0.51-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/sqlalchemy-v2.0.51/typing_extensions-4.15.0-py3-none-any.whl
