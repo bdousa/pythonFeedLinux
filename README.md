@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 62
+- **Active packages:** 63
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`xlsxwriter`](#xlsxwriter) | `3.2.9` | 2026-06-22 |
 | [`xlrd`](#xlrd) | `2.0.2` | 2026-06-22 |
 | [`xgboost`](#xgboost) | `3.0.5` | 2026-06-22 |
 | [`tiktoken`](#tiktoken) | `0.13.0` | 2026-06-22 |
 | [`tabula-py`](#tabula-py) | `2.10.0` | 2026-06-22 |
-| [`streamlit`](#streamlit) | `0.8` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -806,6 +806,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/xlrd-v2.0.2/xlrd-2.0.2-py2.py3-none-any.whl
 ```
 
+#### `xlsxwriter`
+- **Latest version:** `3.2.9`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/xlsxwriter-v3.2.9/xlsxwriter-3.2.9-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/xlsxwriter-v3.2.9)
+- **Validation run:** [build #27970674030](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970674030)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/xlsxwriter-v3.2.9/xlsxwriter-3.2.9-py3-none-any.whl
+```
+
 
 ## 🚀 Usage Instructions
 
@@ -853,6 +865,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:48 UTC*
+*Last updated: 2026-06-22 20:49 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

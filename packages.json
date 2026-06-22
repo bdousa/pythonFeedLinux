@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:48:17.846964Z",
+  "generatedAt": "2026-06-22T20:49:03.076824Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1850,6 +1850,28 @@
           "buildId": "27970666152",
           "files": [
             "xlrd-2.0.2-py2.py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "xlsxwriter": {
+      "name": "xlsxwriter",
+      "latestVersion": "3.2.9",
+      "latestReleaseTag": "xlsxwriter-v3.2.9",
+      "versions": [
+        {
+          "version": "3.2.9",
+          "releaseTag": "xlsxwriter-v3.2.9",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/xlsxwriter-v3.2.9/xlsxwriter-3.2.9-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/xlsxwriter-v3.2.9",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970674030",
+          "buildId": "27970674030",
+          "files": [
+            "xlsxwriter-3.2.9-py3-none-any.whl"
           ]
         }
       ],
