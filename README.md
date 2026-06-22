@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 31
+- **Active packages:** 32
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`pillow`](#pillow) | `12.2.0` | 2026-06-22 |
 | [`pandas-datareader`](#pandas-datareader) | `0.10.0` | 2026-06-22 |
 | [`pandas`](#pandas) | `3.0.3` | 2026-06-22 |
 | [`openpyxl`](#openpyxl) | `3.1.5` | 2026-06-22 |
-| [`openai`](#openai) | `1.39.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -414,6 +414,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/pandas-datareader-v0.10.0.txt
 ```
 
+#### `pillow`
+- **Latest version:** `12.2.0`
+- **Validated:** 2026-06-22
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/pillow-v12.2.0/pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/pillow-v12.2.0)
+- **Validation run:** [build #27970449154](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970449154)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pillow-v12.2.0/pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+```
+
 ### R
 
 #### `requests`
@@ -475,6 +487,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:08 UTC*
+*Last updated: 2026-06-22 20:09 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

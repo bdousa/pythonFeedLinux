@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:08:48.295818Z",
+  "generatedAt": "2026-06-22T20:09:28.709392Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1027,6 +1027,28 @@
             "requests-2.34.2-py3-none-any.whl",
             "six-1.17.0-py2.py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pillow": {
+      "name": "pillow",
+      "latestVersion": "12.2.0",
+      "latestReleaseTag": "pillow-v12.2.0",
+      "versions": [
+        {
+          "version": "12.2.0",
+          "releaseTag": "pillow-v12.2.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pillow-v12.2.0/pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pillow-v12.2.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970449154",
+          "buildId": "27970449154",
+          "files": [
+            "pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],
