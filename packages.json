@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:30:48.699748Z",
+  "generatedAt": "2026-06-22T20:31:34.800650Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1457,6 +1457,30 @@
             "rich-15.0.0-py3-none-any.whl",
             "shellingham-1.5.4-py2.py3-none-any.whl",
             "typer-0.26.7-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "reportlab": {
+      "name": "reportlab",
+      "latestVersion": "5.0.0",
+      "latestReleaseTag": "reportlab-v5.0.0",
+      "versions": [
+        {
+          "version": "5.0.0",
+          "releaseTag": "reportlab-v5.0.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/reportlab-v5.0.0/reportlab-5.0.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/reportlab-v5.0.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970573156",
+          "buildId": "27970573156",
+          "files": [
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "reportlab-5.0.0-py3-none-any.whl"
           ]
         }
       ],

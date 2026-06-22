@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 49
+- **Active packages:** 50
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`reportlab`](#reportlab) | `5.0.0` | 2026-06-22 |
 | [`pyzt`](#pyzt) | `0.0.2` | 2026-06-22 |
 | [`pyzipper`](#pyzipper) | `0.4.0` | 2026-06-22 |
 | [`pyyaml`](#pyyaml) | `6.0.3` | 2026-06-22 |
-| [`pythonnet`](#pythonnet) | `3.1.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -632,6 +632,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 
 ### R
 
+#### `reportlab`
+- **Latest version:** `5.0.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/reportlab-v5.0.0/reportlab-5.0.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/reportlab-v5.0.0)
+- **Validation run:** [build #27970573156](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970573156)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/reportlab-v5.0.0.txt
+```
+
 #### `requests`
 - **Latest version:** `2.34.2`
 - **Validated:** 2026-06-22
@@ -691,6 +703,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:30 UTC*
+*Last updated: 2026-06-22 20:31 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
