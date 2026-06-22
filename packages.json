@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T18:18:54.082954Z",
+  "generatedAt": "2026-06-22T18:20:14.333107Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -218,6 +218,36 @@
             "msal_extensions-1.3.1-py3-none-any.whl",
             "pycparser-3.0-py3-none-any.whl",
             "pyjwt-2.13.0-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "azure-keyvault-secrets": {
+      "name": "azure-keyvault-secrets",
+      "latestVersion": "4.11.0",
+      "latestReleaseTag": "azure-keyvault-secrets-v4.11.0",
+      "versions": [
+        {
+          "version": "4.11.0",
+          "releaseTag": "azure-keyvault-secrets-v4.11.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/azure-keyvault-secrets-v4.11.0/azure_keyvault_secrets-4.11.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-keyvault-secrets-v4.11.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970264280",
+          "buildId": "27970264280",
+          "files": [
+            "azure_core-1.41.0-py3-none-any.whl",
+            "azure_keyvault_secrets-4.11.0-py3-none-any.whl",
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "isodate-0.7.2-py3-none-any.whl",
             "requests-2.34.2-py3-none-any.whl",
             "typing_extensions-4.15.0-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
