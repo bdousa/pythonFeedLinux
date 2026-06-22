@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:03:28.815424Z",
+  "generatedAt": "2026-06-22T20:04:12.955079Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -866,6 +866,32 @@
             "pyjwt-2.13.0-py3-none-any.whl",
             "requests-2.34.2-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "nltk": {
+      "name": "nltk",
+      "latestVersion": "3.9.4",
+      "latestReleaseTag": "nltk-v3.9.4",
+      "versions": [
+        {
+          "version": "3.9.4",
+          "releaseTag": "nltk-v3.9.4",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/nltk-v3.9.4/nltk-3.9.4-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/nltk-v3.9.4",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970410989",
+          "buildId": "27970410989",
+          "files": [
+            "click-8.4.1-py3-none-any.whl",
+            "joblib-1.5.3-py3-none-any.whl",
+            "nltk-3.9.4-py3-none-any.whl",
+            "regex-2026.5.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "tqdm-4.68.3-py3-none-any.whl"
           ]
         }
       ],
