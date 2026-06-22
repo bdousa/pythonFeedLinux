@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 4
+- **Active packages:** 5
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,6 +25,7 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`azure-functions`](#azure-functions) | `2.1.0` | 2026-06-22 |
 | [`azure-datalake-store`](#azure-datalake-store) | `1.0.1` | 2026-06-22 |
 | [`azure-ai-transcription`](#azure-ai-transcription) | `1.0.0` | 2026-06-22 |
 | [`azure-ai-projects`](#azure-ai-projects) | `1.0.0` | 2026-06-22 |
@@ -67,6 +68,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-datalake-store-v1.0.1.txt
+```
+
+#### `azure-functions`
+- **Latest version:** `2.1.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-functions-v2.1.0/azure_functions-2.1.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-functions-v2.1.0)
+- **Validation run:** [build #27970245173](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970245173)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-functions-v2.1.0.txt
 ```
 
 ### R

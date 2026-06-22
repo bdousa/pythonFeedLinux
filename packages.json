@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T18:15:34.184522Z",
+  "generatedAt": "2026-06-22T18:15:54.318271Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -116,6 +116,30 @@
             "pycparser-3.0-py3-none-any.whl",
             "requests-2.34.2-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "azure-functions": {
+      "name": "azure-functions",
+      "latestVersion": "2.1.0",
+      "latestReleaseTag": "azure-functions-v2.1.0",
+      "versions": [
+        {
+          "version": "2.1.0",
+          "releaseTag": "azure-functions-v2.1.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/azure-functions-v2.1.0/azure_functions-2.1.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-functions-v2.1.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970245173",
+          "buildId": "27970245173",
+          "files": [
+            "azure_functions-2.1.0-py3-none-any.whl",
+            "markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "werkzeug-3.1.8-py3-none-any.whl"
           ]
         }
       ],

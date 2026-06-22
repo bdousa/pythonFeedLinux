@@ -1,0 +1,4 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/azure-functions-v2.1.0/azure_functions-2.1.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/azure-functions-v2.1.0/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/azure-functions-v2.1.0/werkzeug-3.1.8-py3-none-any.whl
