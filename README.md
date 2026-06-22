@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 23
+- **Active packages:** 24
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [R](#r)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [R](#r)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`matplotlib`](#matplotlib) | `3.11.0` | 2026-06-22 |
 | [`lxml`](#lxml) | `6.1.1` | 2026-06-22 |
 | [`langgraph`](#langgraph) | `0.1.5` | 2026-06-22 |
 | [`langchain-openai`](#langchain-openai) | `0.1.14` | 2026-06-22 |
-| [`langchain-core`](#langchain-core) | `0.2.2` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -310,6 +310,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/lxml-v6.1.1/lxml-6.1.1-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl
 ```
 
+### M
+
+#### `matplotlib`
+- **Latest version:** `3.11.0`
+- **Validated:** 2026-06-22
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/matplotlib-v3.11.0/matplotlib-3.11.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/matplotlib-v3.11.0)
+- **Validation run:** [build #27970397739](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970397739)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/matplotlib-v3.11.0.txt
+```
+
 ### R
 
 #### `requests`
@@ -371,6 +385,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:01 UTC*
+*Last updated: 2026-06-22 20:02 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
