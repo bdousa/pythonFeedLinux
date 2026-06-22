@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 14
+- **Active packages:** 15
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [R](#r)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [R](#r)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`extract-msg`](#extract-msg) | `0.37.1` | 2026-06-22 |
 | [`deltalake`](#deltalake) | `1.6.0` | 2026-06-22 |
 | [`deepagents`](#deepagents) | `0.6.11` | 2026-06-22 |
 | [`chardet`](#chardet) | `7.4.3` | 2026-06-22 |
-| [`black`](#black) | `26.5.1` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -196,6 +196,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/deltalake-v1.6.0.txt
 ```
 
+### E
+
+#### `extract-msg`
+- **Latest version:** `0.37.1`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/extract-msg-v0.37.1/extract_msg-0.37.1-py2.py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/extract-msg-v0.37.1)
+- **Validation run:** [build #27970314416](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970314416)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/extract-msg-v0.37.1.txt
+```
+
 ### R
 
 #### `requests`
@@ -257,6 +271,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 18:39 UTC*
+*Last updated: 2026-06-22 18:51 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
