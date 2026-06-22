@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T19:59:06.030884Z",
+  "generatedAt": "2026-06-22T20:01:00.484583Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -781,6 +781,28 @@
             "tenacity-8.5.0-py3-none-any.whl",
             "typing_extensions-4.15.0-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "lxml": {
+      "name": "lxml",
+      "latestVersion": "6.1.1",
+      "latestReleaseTag": "lxml-v6.1.1",
+      "versions": [
+        {
+          "version": "6.1.1",
+          "releaseTag": "lxml-v6.1.1",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/lxml-v6.1.1/lxml-6.1.1-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/lxml-v6.1.1",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970391277",
+          "buildId": "27970391277",
+          "files": [
+            "lxml-6.1.1-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
           ]
         }
       ],
