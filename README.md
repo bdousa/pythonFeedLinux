@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 6
+- **Active packages:** 7
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`azure-identity`](#azure-identity) | `1.25.3` | 2026-06-22 |
 | [`azure-functions-durable`](#azure-functions-durable) | `1.5.0` | 2026-06-22 |
 | [`azure-functions`](#azure-functions) | `2.1.0` | 2026-06-22 |
 | [`azure-datalake-store`](#azure-datalake-store) | `1.0.1` | 2026-06-22 |
-| [`azure-ai-transcription`](#azure-ai-transcription) | `1.0.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -94,6 +94,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-functions-durable-v1.5.0.txt
 ```
 
+#### `azure-identity`
+- **Latest version:** `1.25.3`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-identity-v1.25.3/azure_identity-1.25.3-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-identity-v1.25.3)
+- **Validation run:** [build #27970257774](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970257774)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-identity-v1.25.3.txt
+```
+
 ### R
 
 #### `requests`
@@ -155,6 +167,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 18:17 UTC*
+*Last updated: 2026-06-22 18:18 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
