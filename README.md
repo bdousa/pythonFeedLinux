@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 64
+- **Active packages:** 65
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -171,6 +171,18 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/chardet-
 ```
 
 ### D
+
+#### `datalake`
+- **Latest version:** `2.5.10`
+- **Validated:** 2026-06-22
+- **Package type:** Source distribution
+- **Download source distribution:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/datalake-v2.5.10/datalake-2.5.10.tar.gz)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/datalake-v2.5.10)
+- **Validation run:** [build #27970295831](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970295831)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/datalake-v2.5.10.txt
+```
 
 #### `deepagents`
 - **Latest version:** `0.6.11`
@@ -877,6 +889,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:49 UTC*
+*Last updated: 2026-06-22 20:52 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

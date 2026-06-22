@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:49:44.272689Z",
+  "generatedAt": "2026-06-22T20:52:53.217075Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1894,6 +1894,43 @@
           "buildId": "27970681128",
           "files": [
             "xlwings-0.36.6-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "datalake": {
+      "name": "datalake",
+      "latestVersion": "2.5.10",
+      "latestReleaseTag": "datalake-v2.5.10",
+      "versions": [
+        {
+          "version": "2.5.10",
+          "releaseTag": "datalake-v2.5.10",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/datalake-v2.5.10/datalake-2.5.10.tar.gz",
+          "packageType": "Source distribution",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/datalake-v2.5.10",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970295831",
+          "buildId": "27970295831",
+          "files": [
+            "boto3-1.35.41.tar.gz",
+            "botocore-1.35.64.tar.gz",
+            "certifi-2026.6.17.tar.gz",
+            "charset_normalizer-3.4.7.tar.gz",
+            "click-8.4.1.tar.gz",
+            "datalake-2.5.10.tar.gz",
+            "idna-3.18.tar.gz",
+            "jmespath-1.1.0.tar.gz",
+            "memoized-property-1.0.3.tar.gz",
+            "python-dateutil-2.9.0.post0.tar.gz",
+            "python_dotenv-1.2.2.tar.gz",
+            "pytz-2026.2.tar.gz",
+            "requests-2.34.2.tar.gz",
+            "s3transfer-0.10.4.tar.gz",
+            "six-1.17.0.tar.gz",
+            "urllib3-2.7.0.tar.gz"
           ]
         }
       ],
