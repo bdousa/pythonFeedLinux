@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:13:34.318118Z",
+  "generatedAt": "2026-06-22T20:14:21.115227Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1139,6 +1139,28 @@
           "buildId": "27970479921",
           "files": [
             "pyodbc-5.3.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pypdf": {
+      "name": "pypdf",
+      "latestVersion": "6.14.0",
+      "latestReleaseTag": "pypdf-v6.14.0",
+      "versions": [
+        {
+          "version": "6.14.0",
+          "releaseTag": "pypdf-v6.14.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pypdf-v6.14.0/pypdf-6.14.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pypdf-v6.14.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970486830",
+          "buildId": "27970486830",
+          "files": [
+            "pypdf-6.14.0-py3-none-any.whl"
           ]
         }
       ],
