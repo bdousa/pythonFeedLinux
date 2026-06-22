@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 27
+- **Active packages:** 28
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [R](#r)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [R](#r)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`openai`](#openai) | `1.39.0` | 2026-06-22 |
 | [`numpy`](#numpy) | `2.5.0` | 2026-06-22 |
 | [`nltk`](#nltk) | `3.9.4` | 2026-06-22 |
 | [`msal`](#msal) | `1.37.0` | 2026-06-22 |
-| [`matplotlib`](#matplotlib) | `3.11.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -360,6 +360,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/numpy-v2.5.0/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+```
+
+### O
+
+#### `openai`
+- **Latest version:** `1.39.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/openai-v1.39.0/openai-1.39.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/openai-v1.39.0)
+- **Validation run:** [build #27970423423](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970423423)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/openai-v1.39.0.txt
 ```
 
 ### R
