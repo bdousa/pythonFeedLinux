@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 34
+- **Active packages:** 35
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`pyjwt`](#pyjwt) | `2.13.0` | 2026-06-22 |
 | [`pyarrow`](#pyarrow) | `24.0.0` | 2026-06-22 |
 | [`plotly`](#plotly) | `6.8.0` | 2026-06-22 |
 | [`pillow`](#pillow) | `12.2.0` | 2026-06-22 |
-| [`pandas-datareader`](#pandas-datareader) | `0.10.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -448,6 +448,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyarrow-v24.0.0/pyarrow-24.0.0-cp313-cp313-manylinux_2_28_x86_64.whl
+```
+
+#### `pyjwt`
+- **Latest version:** `2.13.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/pyjwt-v2.13.0/pyjwt-2.13.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/pyjwt-v2.13.0)
+- **Validation run:** [build #27970473489](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970473489)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyjwt-v2.13.0/pyjwt-2.13.0-py3-none-any.whl
 ```
 
 ### R

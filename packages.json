@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:12:02.428078Z",
+  "generatedAt": "2026-06-22T20:12:41.246847Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1095,6 +1095,28 @@
           "buildId": "27970467779",
           "files": [
             "pyarrow-24.0.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "pyjwt": {
+      "name": "pyjwt",
+      "latestVersion": "2.13.0",
+      "latestReleaseTag": "pyjwt-v2.13.0",
+      "versions": [
+        {
+          "version": "2.13.0",
+          "releaseTag": "pyjwt-v2.13.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pyjwt-v2.13.0/pyjwt-2.13.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/pyjwt-v2.13.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970473489",
+          "buildId": "27970473489",
+          "files": [
+            "pyjwt-2.13.0-py3-none-any.whl"
           ]
         }
       ],
