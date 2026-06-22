@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:25:55.848337Z",
+  "generatedAt": "2026-06-22T20:26:40.019073Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1336,6 +1336,28 @@
             "lxml-6.1.1-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
             "python_docx-1.2.0-py3-none-any.whl",
             "typing_extensions-4.15.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "python-dotenv": {
+      "name": "python-dotenv",
+      "latestVersion": "1.2.2",
+      "latestReleaseTag": "python-dotenv-v1.2.2",
+      "versions": [
+        {
+          "version": "1.2.2",
+          "releaseTag": "python-dotenv-v1.2.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/python-dotenv-v1.2.2/python_dotenv-1.2.2-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/python-dotenv-v1.2.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970539517",
+          "buildId": "27970539517",
+          "files": [
+            "python_dotenv-1.2.2-py3-none-any.whl"
           ]
         }
       ],
