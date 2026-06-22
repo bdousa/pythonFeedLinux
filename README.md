@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 28
+- **Active packages:** 29
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`openpyxl`](#openpyxl) | `3.1.5` | 2026-06-22 |
 | [`openai`](#openai) | `1.39.0` | 2026-06-22 |
 | [`numpy`](#numpy) | `2.5.0` | 2026-06-22 |
 | [`nltk`](#nltk) | `3.9.4` | 2026-06-22 |
-| [`msal`](#msal) | `1.37.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -376,6 +376,18 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/numpy-v2
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/openai-v1.39.0.txt
 ```
 
+#### `openpyxl`
+- **Latest version:** `3.1.5`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/openpyxl-v3.1.5/openpyxl-3.1.5-py2.py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/openpyxl-v3.1.5)
+- **Validation run:** [build #27970430048](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970430048)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/openpyxl-v3.1.5.txt
+```
+
 ### R
 
 #### `requests`
@@ -437,6 +449,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:05 UTC*
+*Last updated: 2026-06-22 20:07 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
