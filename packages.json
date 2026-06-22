@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T18:55:23.719279Z",
+  "generatedAt": "2026-06-22T19:39:57.111350Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -565,6 +565,39 @@
           "buildId": "27970333893",
           "files": [
             "fsspec-2026.6.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "langchain": {
+      "name": "langchain",
+      "latestVersion": "0.0.27",
+      "latestReleaseTag": "langchain-v0.0.27",
+      "versions": [
+        {
+          "version": "0.0.27",
+          "releaseTag": "langchain-v0.0.27",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/langchain-0.0.27-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/langchain-v0.0.27",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970358548",
+          "buildId": "27970358548",
+          "files": [
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "greenlet-3.5.2-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "langchain-0.0.27-py3-none-any.whl",
+            "numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "pydantic-1.10.26-py3-none-any.whl",
+            "pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "sqlalchemy-2.0.51-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
           ]
         }
       ],

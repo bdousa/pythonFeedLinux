@@ -1,0 +1,13 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/certifi-2026.6.17-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/greenlet-3.5.2-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/idna-3.18-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/langchain-0.0.27-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/pydantic-1.10.26-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/requests-2.34.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/sqlalchemy-2.0.51-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/typing_extensions-4.15.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/urllib3-2.7.0-py3-none-any.whl

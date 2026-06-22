@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 17
+- **Active packages:** 18
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [R](#r)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [R](#r)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`langchain`](#langchain) | `0.0.27` | 2026-06-22 |
 | [`fsspec`](#fsspec) | `2026.6.0` | 2026-06-22 |
 | [`faiss-cpu`](#faiss-cpu) | `1.14.3` | 2026-06-22 |
 | [`extract-msg`](#extract-msg) | `0.37.1` | 2026-06-22 |
-| [`deltalake`](#deltalake) | `1.6.0` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -236,6 +236,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/fsspec-v2026.6.0/fsspec-2026.6.0-py3-none-any.whl
 ```
 
+### L
+
+#### `langchain`
+- **Latest version:** `0.0.27`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-v0.0.27/langchain-0.0.27-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/langchain-v0.0.27)
+- **Validation run:** [build #27970358548](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970358548)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/langchain-v0.0.27.txt
+```
+
 ### R
 
 #### `requests`
@@ -297,6 +311,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 18:55 UTC*
+*Last updated: 2026-06-22 19:39 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
