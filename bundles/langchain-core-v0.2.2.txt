@@ -1,0 +1,15 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/certifi-2026.6.17-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/idna-3.18-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/jsonpatch-1.33-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/jsonpointer-3.1.1-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/langchain_core-0.2.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/langsmith-0.1.5-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/packaging-23.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/pydantic-1.10.26-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/requests-2.34.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/tenacity-8.5.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/typing_extensions-4.15.0-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/urllib3-2.7.0-py3-none-any.whl

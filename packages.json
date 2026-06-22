@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T19:42:24.338197Z",
+  "generatedAt": "2026-06-22T19:44:35.599721Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -664,6 +664,41 @@
             "xxhash-3.7.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "yarl-1.24.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "zstandard-0.25.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "langchain-core": {
+      "name": "langchain-core",
+      "latestVersion": "0.2.2",
+      "latestReleaseTag": "langchain-core-v0.2.2",
+      "versions": [
+        {
+          "version": "0.2.2",
+          "releaseTag": "langchain-core-v0.2.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/langchain-core-v0.2.2/langchain_core-0.2.2-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/langchain-core-v0.2.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970371022",
+          "buildId": "27970371022",
+          "files": [
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "jsonpatch-1.33-py2.py3-none-any.whl",
+            "jsonpointer-3.1.1-py3-none-any.whl",
+            "langchain_core-0.2.2-py3-none-any.whl",
+            "langsmith-0.1.5-py3-none-any.whl",
+            "packaging-23.2-py3-none-any.whl",
+            "pydantic-1.10.26-py3-none-any.whl",
+            "pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "tenacity-8.5.0-py3-none-any.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
           ]
         }
       ],
