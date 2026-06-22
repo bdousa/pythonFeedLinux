@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:45:13.105799Z",
+  "generatedAt": "2026-06-22T20:45:51.431416Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1776,6 +1776,34 @@
             "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
             "six-1.17.0-py2.py3-none-any.whl",
             "tabula_py-2.10.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "tiktoken": {
+      "name": "tiktoken",
+      "latestVersion": "0.13.0",
+      "latestReleaseTag": "tiktoken-v0.13.0",
+      "versions": [
+        {
+          "version": "0.13.0",
+          "releaseTag": "tiktoken-v0.13.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/tiktoken-v0.13.0/tiktoken-0.13.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/tiktoken-v0.13.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970645688",
+          "buildId": "27970645688",
+          "files": [
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "regex-2026.5.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "tiktoken-0.13.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
           ]
         }
       ],

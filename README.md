@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 59
+- **Active packages:** 60
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`tiktoken`](#tiktoken) | `0.13.0` | 2026-06-22 |
 | [`tabula-py`](#tabula-py) | `2.10.0` | 2026-06-22 |
 | [`streamlit`](#streamlit) | `0.8` | 2026-06-22 |
 | [`statsmodels`](#statsmodels) | `0.14.6` | 2026-06-22 |
 | [`sqlalchemy`](#sqlalchemy) | `2.0.51` | 2026-06-22 |
-| [`spacy`](#spacy) | `3.8.14` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -766,6 +766,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/tabula-py-v2.10.0.txt
+```
+
+#### `tiktoken`
+- **Latest version:** `0.13.0`
+- **Validated:** 2026-06-22
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/tiktoken-v0.13.0/tiktoken-0.13.0-cp313-cp313-manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/tiktoken-v0.13.0)
+- **Validation run:** [build #27970645688](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970645688)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/tiktoken-v0.13.0.txt
 ```
 
 
