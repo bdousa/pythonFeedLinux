@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 50
+- **Active packages:** 51
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`restrictedpython`](#restrictedpython) | `8.3` | 2026-06-22 |
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
 | [`reportlab`](#reportlab) | `5.0.0` | 2026-06-22 |
 | [`pyzt`](#pyzt) | `0.0.2` | 2026-06-22 |
 | [`pyzipper`](#pyzipper) | `0.4.0` | 2026-06-22 |
-| [`pyyaml`](#pyyaml) | `6.0.3` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -656,6 +656,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/requests-v2.34.2.txt
 ```
 
+#### `restrictedpython`
+- **Latest version:** `8.3`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/restrictedpython-v8.3/restrictedpython-8.3-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/restrictedpython-v8.3)
+- **Validation run:** [build #27970579442](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970579442)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/restrictedpython-v8.3/restrictedpython-8.3-py3-none-any.whl
+```
+
 
 ## 🚀 Usage Instructions
 
@@ -703,6 +715,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:31 UTC*
+*Last updated: 2026-06-22 20:32 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:31:34.800650Z",
+  "generatedAt": "2026-06-22T20:32:15.978995Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1481,6 +1481,28 @@
             "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
             "reportlab-5.0.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "restrictedpython": {
+      "name": "restrictedpython",
+      "latestVersion": "8.3",
+      "latestReleaseTag": "restrictedpython-v8.3",
+      "versions": [
+        {
+          "version": "8.3",
+          "releaseTag": "restrictedpython-v8.3",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/restrictedpython-v8.3/restrictedpython-8.3-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/restrictedpython-v8.3",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970579442",
+          "buildId": "27970579442",
+          "files": [
+            "restrictedpython-8.3-py3-none-any.whl"
           ]
         }
       ],
