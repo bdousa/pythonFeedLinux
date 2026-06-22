@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T16:21:27.868261Z",
+  "generatedAt": "2026-06-22T16:29:09.058667Z",
   "packages": {
     "azure-datalake-store": {
       "name": "azure-datalake-store",
@@ -277,9 +277,27 @@
     "requests": {
       "name": "requests",
       "lifecycleState": "active",
-      "latestVersion": "",
-      "latestReleaseTag": "",
-      "versions": [],
+      "latestVersion": "2.34.2",
+      "latestReleaseTag": "requests-v2.34.2",
+      "versions": [
+        {
+          "version": "2.34.2",
+          "releaseTag": "requests-v2.34.2",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/requests-v2.34.2/requests-2.34.2-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/requests-v2.34.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27967793908",
+          "buildId": "27967793908",
+          "files": [
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
       "installable": true
     },
     "ruff": {

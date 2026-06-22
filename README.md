@@ -24,6 +24,7 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`requests`](#requests) | `2.34.2` | 2026-06-22 |
 | [`azure-ai-projects`](#azure-ai-projects) | `1.0.0` | 2026-06-22 |
 
 ## 📦 Available Packages
@@ -335,11 +336,15 @@ pip install <package-url>
 ```
 
 #### `requests`
-- **Latest version:** ``
-- **Validated:** unknown
+- **Latest version:** `2.34.2`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/requests-v2.34.2/requests-2.34.2-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/requests-v2.34.2)
+- **Validation run:** [build #27967793908](https://github.com/bdousa/pythonFeedLinux/actions/runs/27967793908)
 - **Quick command:**
 ```text
-pip install <package-url>
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/requests-v2.34.2.txt
 ```
 
 #### `ruff`
@@ -453,6 +458,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 16:21 UTC*
+*Last updated: 2026-06-22 16:29 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
