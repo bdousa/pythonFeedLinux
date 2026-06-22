@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:25:09.729360Z",
+  "generatedAt": "2026-06-22T20:25:55.848337Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1312,6 +1312,30 @@
           "files": [
             "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
             "six-1.17.0-py2.py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "python-docx": {
+      "name": "python-docx",
+      "latestVersion": "1.2.0",
+      "latestReleaseTag": "python-docx-v1.2.0",
+      "versions": [
+        {
+          "version": "1.2.0",
+          "releaseTag": "python-docx-v1.2.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/python-docx-v1.2.0/python_docx-1.2.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/python-docx-v1.2.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970532663",
+          "buildId": "27970532663",
+          "files": [
+            "lxml-6.1.1-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+            "python_docx-1.2.0-py3-none-any.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl"
           ]
         }
       ],
