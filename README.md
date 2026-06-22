@@ -7,9 +7,9 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 2
+- **Active packages:** 3
 - **Deprecated packages:** 0
-- **Most recent validation:** 2026-06-22 (`requests`)
+- **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
 
 ## ✅ Requirements
@@ -25,6 +25,7 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`requests`](#requests) | `2.34.2` | 2026-06-22 |
+| [`azure-ai-transcription`](#azure-ai-transcription) | `1.0.0` | 2026-06-22 |
 | [`azure-ai-projects`](#azure-ai-projects) | `1.0.0` | 2026-06-22 |
 
 ## 📦 Available Packages
@@ -43,6 +44,18 @@ This repository contains Python packages validated through automated security sc
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-ai-projects-v1.0.0.txt
 ```
 
+#### `azure-ai-transcription`
+- **Latest version:** `1.0.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-ai-transcription-v1.0.0/azure_ai_transcription-1.0.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-ai-transcription-v1.0.0)
+- **Validation run:** [build #27970233148](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970233148)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-ai-transcription-v1.0.0.txt
+```
+
 ### R
 
 #### `requests`
@@ -56,6 +69,7 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/requests-v2.34.2.txt
 ```
+
 
 ## 🚀 Usage Instructions
 
@@ -103,6 +117,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 16:33 UTC*
+*Last updated: 2026-06-22 18:13 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

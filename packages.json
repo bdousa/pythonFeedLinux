@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T16:33:35.652871Z",
+  "generatedAt": "2026-06-22T18:13:20.499989Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -56,6 +56,36 @@
             "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "idna-3.18-py3-none-any.whl",
             "requests-2.34.2-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "azure-ai-transcription": {
+      "name": "azure-ai-transcription",
+      "latestVersion": "1.0.0",
+      "latestReleaseTag": "azure-ai-transcription-v1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "releaseTag": "azure-ai-transcription-v1.0.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/azure-ai-transcription-v1.0.0/azure_ai_transcription-1.0.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-ai-transcription-v1.0.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27970233148",
+          "buildId": "27970233148",
+          "files": [
+            "azure_ai_transcription-1.0.0-py3-none-any.whl",
+            "azure_core-1.41.0-py3-none-any.whl",
+            "certifi-2026.6.17-py3-none-any.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "isodate-0.7.2-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
           ]
         }
