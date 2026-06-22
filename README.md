@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 58
+- **Active packages:** 59
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`tabula-py`](#tabula-py) | `2.10.0` | 2026-06-22 |
 | [`streamlit`](#streamlit) | `0.8` | 2026-06-22 |
 | [`statsmodels`](#statsmodels) | `0.14.6` | 2026-06-22 |
 | [`sqlalchemy`](#sqlalchemy) | `2.0.51` | 2026-06-22 |
 | [`spacy`](#spacy) | `3.8.14` | 2026-06-22 |
-| [`seaborn`](#seaborn) | `0.13.2` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -754,6 +754,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/streamlit-v0.8.txt
 ```
 
+### T
+
+#### `tabula-py`
+- **Latest version:** `2.10.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/tabula-py-v2.10.0/tabula_py-2.10.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/tabula-py-v2.10.0)
+- **Validation run:** [build #27970638981](https://github.com/bdousa/pythonFeedLinux/actions/runs/27970638981)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/tabula-py-v2.10.0.txt
+```
+
 
 ## 🚀 Usage Instructions
 
@@ -801,6 +815,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-22 20:43 UTC*
+*Last updated: 2026-06-22 20:45 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
