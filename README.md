@@ -7,8 +7,9 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 42
+- **Active packages:** 43
 - **Deprecated packages:** 0
+- **Most recent validation:** 2026-06-22 (`azure-ai-projects`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
 
 ## ✅ Requirements
@@ -19,9 +20,27 @@ This repository contains Python packages validated through automated security sc
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [X](#x)
 
+## 🆕 Recently Validated
+
+| Package | Version | Validated |
+|---------|---------|-----------|
+| [`azure-ai-projects`](#azure-ai-projects) | `1.0.0` | 2026-06-22 |
+
 ## 📦 Available Packages
 
 ### A
+
+#### `azure-ai-projects`
+- **Latest version:** `1.0.0`
+- **Validated:** 2026-06-22
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/azure-ai-projects-v1.0.0/azure_ai_projects-1.0.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-ai-projects-v1.0.0)
+- **Validation run:** [build #27967291855](https://github.com/bdousa/pythonFeedLinux/actions/runs/27967291855)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/azure-ai-projects-v1.0.0.txt
+```
 
 #### `azure-datalake-store`
 - **Latest version:** ``
@@ -434,6 +453,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-18 16:46 UTC*
+*Last updated: 2026-06-22 16:21 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

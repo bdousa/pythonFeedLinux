@@ -1,174 +1,377 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "",
+  "generatedAt": "2026-06-22T16:21:27.868261Z",
   "packages": {
     "azure-datalake-store": {
       "name": "azure-datalake-store",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "azure-functions": {
       "name": "azure-functions",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "azure-identity": {
       "name": "azure-identity",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "azure-keyvault-secrets": {
       "name": "azure-keyvault-secrets",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "azure-mgmt-datalake-store": {
       "name": "azure-mgmt-datalake-store",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "azure-storage-blob": {
       "name": "azure-storage-blob",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "black": {
       "name": "black",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "chardet": {
       "name": "chardet",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "datalake": {
       "name": "datalake",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "deltalake": {
       "name": "deltalake",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "fastexcel": {
       "name": "fastexcel",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "fsspec": {
       "name": "fsspec",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "lxml": {
       "name": "lxml",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "matplotlib": {
       "name": "matplotlib",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "msal": {
       "name": "msal",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "numpy": {
       "name": "numpy",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "openpyxl": {
       "name": "openpyxl",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pandas": {
       "name": "pandas",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pillow": {
       "name": "pillow",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "polars": {
       "name": "polars",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pyarrow": {
       "name": "pyarrow",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pyodbc": {
       "name": "pyodbc",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pypdf": {
       "name": "pypdf",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pyspark": {
       "name": "pyspark",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pytesseract": {
       "name": "pytesseract",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pytest": {
       "name": "pytest",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pytest-asyncio": {
       "name": "pytest-asyncio",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pytest-cov": {
       "name": "pytest-cov",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "python-dotenv": {
       "name": "python-dotenv",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pythonnet": {
       "name": "pythonnet",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pyyaml": {
       "name": "pyyaml",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pyzipper": {
       "name": "pyzipper",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "pyzt": {
       "name": "pyzt",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "reportlab": {
       "name": "reportlab",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "requests": {
       "name": "requests",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "ruff": {
       "name": "ruff",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "seaborn": {
       "name": "seaborn",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "sqlalchemy": {
       "name": "sqlalchemy",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "tabula-py": {
       "name": "tabula-py",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "uv": {
       "name": "uv",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "xlrd": {
       "name": "xlrd",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
     },
     "xlsxwriter": {
       "name": "xlsxwriter",
-      "lifecycleState": "active"
+      "lifecycleState": "active",
+      "latestVersion": "",
+      "latestReleaseTag": "",
+      "versions": [],
+      "installable": true
+    },
+    "azure-ai-projects": {
+      "name": "azure-ai-projects",
+      "latestVersion": "1.0.0",
+      "latestReleaseTag": "azure-ai-projects-v1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "releaseTag": "azure-ai-projects-v1.0.0",
+          "validationDate": "2026-06-22",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/azure-ai-projects-v1.0.0/azure_ai_projects-1.0.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/azure-ai-projects-v1.0.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/27967291855",
+          "buildId": "27967291855",
+          "files": [
+            "azure_ai_agents-1.1.0-py3-none-any.whl",
+            "azure_ai_projects-1.0.0-py3-none-any.whl",
+            "azure_core-1.41.0-py3-none-any.whl",
+            "azure_storage_blob-12.30.0-py3-none-any.whl",
+            "certifi-2026.6.17-py3-none-any.whl",
+            "cffi-2.0.0b1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "cryptography-46.0.0-cp311-abi3-manylinux_2_28_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "isodate-0.7.2-py3-none-any.whl",
+            "pycparser-3.0-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "typing_extensions-4.15.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
     }
   }
 }
