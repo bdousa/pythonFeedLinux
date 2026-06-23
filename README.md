@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 68
+- **Active packages:** 69
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-23 (`fastexcel`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
+| [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
 | [`fastexcel`](#fastexcel) | `0.20.2` | 2026-06-23 |
 | [`IPython`](#IPython) | `9.14.1` | 2026-06-23 |
 | [`xlwings`](#xlwings) | `0.36.6` | 2026-06-22 |
-| [`xlsxwriter`](#xlsxwriter) | `3.2.9` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -706,6 +706,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/restrictedpython-v8.3/restrictedpython-8.3-py3-none-any.whl
 ```
 
+#### `ruff`
+- **Latest version:** `0.15.18`
+- **Validated:** 2026-06-23
+- **Package type:** Python 3 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/ruff-v0.15.18/ruff-0.15.18-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/ruff-v0.15.18)
+- **Validation run:** [build #28026173412](https://github.com/bdousa/pythonFeedLinux/actions/runs/28026173412)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/ruff-v0.15.18/ruff-0.15.18-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+```
+
 ### S
 
 #### `scikit-learn`
@@ -929,6 +941,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-23 12:31 UTC*
+*Last updated: 2026-06-23 12:32 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

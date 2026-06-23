@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T12:31:00.621759Z",
+  "generatedAt": "2026-06-23T12:32:04.286894Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -2013,6 +2013,28 @@
           "buildId": "28026179579",
           "files": [
             "uv-0.11.23-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "ruff": {
+      "name": "ruff",
+      "latestVersion": "0.15.18",
+      "latestReleaseTag": "ruff-v0.15.18",
+      "versions": [
+        {
+          "version": "0.15.18",
+          "releaseTag": "ruff-v0.15.18",
+          "validationDate": "2026-06-23",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/ruff-v0.15.18/ruff-0.15.18-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packageType": "Python 3 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/ruff-v0.15.18",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28026173412",
+          "buildId": "28026173412",
+          "files": [
+            "ruff-0.15.18-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
           ]
         }
       ],
