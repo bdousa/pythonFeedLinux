@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T12:30:37.228194Z",
+  "generatedAt": "2026-06-23T12:31:00.621759Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1991,6 +1991,28 @@
             "stack_data-0.6.3-py3-none-any.whl",
             "traitlets-5.15.1-py3-none-any.whl",
             "wcwidth-0.8.1-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "uv": {
+      "name": "uv",
+      "latestVersion": "0.11.23",
+      "latestReleaseTag": "uv-v0.11.23",
+      "versions": [
+        {
+          "version": "0.11.23",
+          "releaseTag": "uv-v0.11.23",
+          "validationDate": "2026-06-23",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/uv-v0.11.23/uv-0.11.23-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packageType": "Python 3 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/uv-v0.11.23",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28026179579",
+          "buildId": "28026179579",
+          "files": [
+            "uv-0.11.23-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
           ]
         }
       ],
