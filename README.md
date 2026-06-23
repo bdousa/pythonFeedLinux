@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 69
+- **Active packages:** 70
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-23 (`fastexcel`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,7 +18,7 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [I](#i) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [X](#x)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [X](#x)
 
 ## 🆕 Recently Validated
 
@@ -26,9 +26,9 @@ This repository contains Python packages validated through automated security sc
 |---------|---------|-----------|
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
 | [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
+| [`jupyterlab`](#jupyterlab) | `4.6.0` | 2026-06-23 |
 | [`fastexcel`](#fastexcel) | `0.20.2` | 2026-06-23 |
 | [`IPython`](#IPython) | `9.14.1` | 2026-06-23 |
-| [`xlwings`](#xlwings) | `0.36.6` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -272,6 +272,20 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/fsspec-v
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/IPython-v9.14.1.txt
+```
+
+### J
+
+#### `jupyterlab`
+- **Latest version:** `4.6.0`
+- **Validated:** 2026-06-23
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/jupyterlab-v4.6.0/jupyterlab-4.6.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/jupyterlab-v4.6.0)
+- **Validation run:** [build #28026161373](https://github.com/bdousa/pythonFeedLinux/actions/runs/28026161373)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/jupyterlab-v4.6.0.txt
 ```
 
 ### L
@@ -941,6 +955,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-23 12:32 UTC*
+*Last updated: 2026-06-23 12:33 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
