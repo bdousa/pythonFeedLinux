@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T12:37:28.770434Z",
+  "generatedAt": "2026-06-23T12:37:52.084758Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -2297,6 +2297,29 @@
             "wrapt-2.2.2-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
             "yarl-1.24.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
             "zipp-4.1.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "polars": {
+      "name": "polars",
+      "latestVersion": "1.41.2",
+      "latestReleaseTag": "polars-v1.41.2",
+      "versions": [
+        {
+          "version": "1.41.2",
+          "releaseTag": "polars-v1.41.2",
+          "validationDate": "2026-06-23",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/polars-v1.41.2/polars-1.41.2-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/polars-v1.41.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28026167499",
+          "buildId": "28026167499",
+          "files": [
+            "polars-1.41.2-py3-none-any.whl",
+            "polars_runtime_32-1.41.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
           ]
         }
       ],

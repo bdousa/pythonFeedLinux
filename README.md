@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 71
+- **Active packages:** 72
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-23 (`fastexcel`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -26,9 +26,9 @@ This repository contains Python packages validated through automated security sc
 |---------|---------|-----------|
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
 | [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
+| [`polars`](#polars) | `1.41.2` | 2026-06-23 |
 | [`jupyterlab`](#jupyterlab) | `4.6.0` | 2026-06-23 |
 | [`graphrag`](#graphrag) | `3.1.0` | 2026-06-23 |
-| [`fastexcel`](#fastexcel) | `0.20.2` | 2026-06-23 |
 
 ## 📦 Available Packages
 
@@ -502,6 +502,18 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/pillow-v
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/plotly-v6.8.0.txt
+```
+
+#### `polars`
+- **Latest version:** `1.41.2`
+- **Validated:** 2026-06-23
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/polars-v1.41.2/polars-1.41.2-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/polars-v1.41.2)
+- **Validation run:** [build #28026167499](https://github.com/bdousa/pythonFeedLinux/actions/runs/28026167499)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/polars-v1.41.2.txt
 ```
 
 #### `pyarrow`
