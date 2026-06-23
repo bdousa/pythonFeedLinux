@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T12:29:37.359971Z",
+  "generatedAt": "2026-06-23T12:30:37.228194Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1953,6 +1953,44 @@
           "buildId": "28026143107",
           "files": [
             "fastexcel-0.20.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "IPython": {
+      "name": "IPython",
+      "latestVersion": "9.14.1",
+      "latestReleaseTag": "IPython-v9.14.1",
+      "versions": [
+        {
+          "version": "9.14.1",
+          "releaseTag": "IPython-v9.14.1",
+          "validationDate": "2026-06-23",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/IPython-v9.14.1/ipython-9.14.1-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/IPython-v9.14.1",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28026155200",
+          "buildId": "28026155200",
+          "files": [
+            "asttokens-3.0.1-py3-none-any.whl",
+            "decorator-5.3.1-py3-none-any.whl",
+            "executing-2.2.1-py2.py3-none-any.whl",
+            "ipython-9.14.1-py3-none-any.whl",
+            "ipython_pygments_lexers-1.1.1-py3-none-any.whl",
+            "jedi-0.20.0-py2.py3-none-any.whl",
+            "matplotlib_inline-0.2.2-py3-none-any.whl",
+            "parso-0.8.7-py2.py3-none-any.whl",
+            "pexpect-4.9.0-py2.py3-none-any.whl",
+            "prompt_toolkit-3.0.52-py3-none-any.whl",
+            "psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl",
+            "ptyprocess-0.7.0-py2.py3-none-any.whl",
+            "pure_eval-0.2.3-py3-none-any.whl",
+            "pygments-2.20.0-py3-none-any.whl",
+            "stack_data-0.6.3-py3-none-any.whl",
+            "traitlets-5.15.1-py3-none-any.whl",
+            "wcwidth-0.8.1-py3-none-any.whl"
           ]
         }
       ],

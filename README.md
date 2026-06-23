@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 66
+- **Active packages:** 67
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-23 (`fastexcel`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [X](#x)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [I](#i) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [X](#x)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`fastexcel`](#fastexcel) | `0.20.2` | 2026-06-23 |
+| [`IPython`](#IPython) | `9.14.1` | 2026-06-23 |
 | [`xlwings`](#xlwings) | `0.36.6` | 2026-06-22 |
 | [`xlsxwriter`](#xlsxwriter) | `3.2.9` | 2026-06-22 |
 | [`xlrd`](#xlrd) | `2.0.2` | 2026-06-22 |
-| [`xgboost`](#xgboost) | `3.0.5` | 2026-06-22 |
 
 ## 📦 Available Packages
 
@@ -258,6 +258,20 @@ pip install https://github.com/bdousa/pythonFeedLinux/releases/download/fastexce
 - **Quick command:**
 ```text
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/fsspec-v2026.6.0/fsspec-2026.6.0-py3-none-any.whl
+```
+
+### I
+
+#### `IPython`
+- **Latest version:** `9.14.1`
+- **Validated:** 2026-06-23
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/IPython-v9.14.1/ipython-9.14.1-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/IPython-v9.14.1)
+- **Validation run:** [build #28026155200](https://github.com/bdousa/pythonFeedLinux/actions/runs/28026155200)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/IPython-v9.14.1.txt
 ```
 
 ### L
@@ -901,6 +915,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-23 12:29 UTC*
+*Last updated: 2026-06-23 12:30 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
