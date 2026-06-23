@@ -18,6 +18,12 @@ PREFERRED_WHEEL_PATTERNS = (
     re.compile(r"cp313-[^-]*-manylinux[^/]*x86_64\.whl$"),
     re.compile(r"cp313-[^-]*-musllinux[^/]*x86_64\.whl$"),
     re.compile(r"cp313-[^-]*-linux_x86_64\.whl$"),
+    re.compile(r"cp\d+-abi3-manylinux[^/]*x86_64\.whl$"),
+    re.compile(r"cp\d+-abi3-musllinux[^/]*x86_64\.whl$"),
+    re.compile(r"cp\d+-abi3-linux_x86_64\.whl$"),
+    re.compile(r"py3-none-manylinux[^/]*x86_64\.whl$"),
+    re.compile(r"py3-none-musllinux[^/]*x86_64\.whl$"),
+    re.compile(r"py3-none-linux_x86_64\.whl$"),
 )
 UNIVERSAL_WHEEL_PATTERNS = (
     re.compile(r"py3-none-any\.whl$"),

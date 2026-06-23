@@ -411,6 +411,14 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           mkdir -p package_publish
 
+          constraint_args=()
+          if [[ -f publish_inputs/requirements.txt ]]; then
+            constraint_args=(-c publish_inputs/requirements.txt)
+            echo 'Using scanned requirements.txt as publish download constraints.'
+          else
+            echo 'Scanned requirements.txt not found; publish download will resolve without constraints.'
+          fi
+
           package_spec="$PACKAGE_NAME"
           if [[ -n "${PACKAGE_VERSION// }" && "$PACKAGE_VERSION" != "latest" ]]; then
             package_spec="$PACKAGE_NAME==$PACKAGE_VERSION"
@@ -418,15 +426,15 @@ jobs:
 
           download_successful=false
           echo "Downloading $package_spec for Python 3.13 Linux x86_64..."
-          if pip download "$package_spec" --dest package_publish --only-binary=:all: --python-version 313 --implementation cp --abi cp313 --platform manylinux_2_28_x86_64; then
+          if pip download "$package_spec" "${constraint_args[@]}" --dest package_publish --only-binary=:all: --python-version 313 --implementation cp --abi cp313 --platform manylinux_2_28_x86_64; then
             download_successful=true
-          elif pip download "$package_spec" --dest package_publish --only-binary=:all: --python-version 313 --implementation cp --abi cp313 --platform manylinux2014_x86_64; then
+          elif pip download "$package_spec" "${constraint_args[@]}" --dest package_publish --only-binary=:all: --python-version 313 --implementation cp --abi cp313 --platform manylinux2014_x86_64; then
             download_successful=true
-          elif pip download "$package_spec" --dest package_publish --only-binary=:all: --python-version 313 --implementation cp --abi cp313 --platform linux_x86_64; then
+          elif pip download "$package_spec" "${constraint_args[@]}" --dest package_publish --only-binary=:all: --python-version 313 --implementation cp --abi cp313 --platform linux_x86_64; then
             download_successful=true
-          elif pip download "$package_spec" --dest package_publish --only-binary=:all:; then
+          elif pip download "$package_spec" "${constraint_args[@]}" --dest package_publish --only-binary=:all:; then
             download_successful=true
-          elif pip download "$package_spec" --dest package_publish --no-binary=:all:; then
+          elif pip download "$package_spec" "${constraint_args[@]}" --dest package_publish --no-binary=:all:; then
             download_successful=true
           fi
           mapfile -t package_files < <(find package_publish -maxdepth 1 -type f | sort)
@@ -447,28 +455,73 @@ jobs:
             exit 1
           fi
 
-          actual_version=""
-          normalized_package_name="${PACKAGE_NAME//-/_}"
-          if [[ -z "${PACKAGE_VERSION// }" || "$PACKAGE_VERSION" == "latest" ]]; then
-            for file in "${package_files[@]}"; do
-              base="$(basename "$file")"
-              if [[ "$base" == "$normalized_package_name"-* || "$base" == "$PACKAGE_NAME"-* ]]; then
-                if [[ "$base" =~ ^[^-]+-([0-9]+\.[0-9]+(\.[0-9]+)?[^-]*)- ]]; then
-                  actual_version="${BASH_REMATCH[1]}"
-                  break
-                elif [[ "$base" =~ ^[^-]+-([0-9]+\.[0-9]+(\.[0-9]+)?.*)\.tar\.gz$ ]]; then
-                  actual_version="${BASH_REMATCH[1]}"
-                  break
-                fi
-              fi
-            done
-            if [[ -z "$actual_version" || ! "$actual_version" =~ [0-9]+\.[0-9]+ ]]; then
-              echo "Could not determine actual package version from downloaded files for $PACKAGE_NAME." >&2
-              exit 1
-            fi
-          else
-            actual_version="$PACKAGE_VERSION"
-          fi
+          selection_script="$(python - <<'PY'
+          import os
+          import re
+          import shlex
+          import sys
+          from pathlib import Path
+
+          from packaging.utils import canonicalize_name, parse_sdist_filename, parse_wheel_filename
+
+          package_dir = Path("package_publish")
+          package_name = os.environ["PACKAGE_NAME"]
+          package_version = (os.environ.get("PACKAGE_VERSION") or "").strip()
+          target_name = canonicalize_name(package_name)
+
+          def wheel_rank(file_name: str) -> tuple[int, str]:
+              lower_name = file_name.lower()
+              if re.search(r"cp313-[^-]*-(manylinux|musllinux).*x86_64\.whl$", lower_name) or re.search(r"cp313-[^-]*-linux_x86_64\.whl$", lower_name):
+                  return 0, "Python 3.13 Linux x86_64 wheel"
+              if re.search(r"cp\d+-abi3-(manylinux|musllinux).*x86_64\.whl$", lower_name) or re.search(r"cp\d+-abi3-linux_x86_64\.whl$", lower_name):
+                  return 1, "ABI3 Linux x86_64 wheel"
+              if re.search(r"py3-none-(manylinux|musllinux).*x86_64\.whl$", lower_name) or re.search(r"py3-none-linux_x86_64\.whl$", lower_name):
+                  return 2, "Python 3 Linux x86_64 wheel"
+              if re.search(r"(py3-none-any|py2\.py3-none-any)\.whl$", lower_name):
+                  return 3, "Universal wheel (Python 3+)"
+              if lower_name.endswith(".whl"):
+                  return 4, "Wheel (check compatibility)"
+              if lower_name.endswith(".tar.gz"):
+                  return 5, "Source distribution"
+              return 99, "Unknown"
+
+          candidates = []
+          for file_path in sorted(package_dir.iterdir()):
+              if not file_path.is_file():
+                  continue
+              file_name = file_path.name
+              try:
+                  if file_name.endswith(".whl"):
+                      dist_name, version, _, _ = parse_wheel_filename(file_name)
+                  elif file_name.endswith(".tar.gz"):
+                      dist_name, version = parse_sdist_filename(file_name)
+                  else:
+                      continue
+              except Exception:
+                  continue
+              if canonicalize_name(dist_name) != target_name:
+                  continue
+              rank, install_type = wheel_rank(file_name)
+              candidates.append((rank, file_name.lower(), file_path, str(version), install_type))
+
+          if not candidates:
+              print(f"Could not identify the downloaded package file for {package_name}.", file=sys.stderr)
+              sys.exit(1)
+
+          _, _, selected_file, parsed_version, install_type = min(candidates)
+          actual_version = parsed_version
+          if package_version and package_version != "latest" and not actual_version:
+              actual_version = package_version
+          if not actual_version or actual_version == "latest":
+              print(f"Could not determine actual package version from downloaded files for {package_name}.", file=sys.stderr)
+              sys.exit(1)
+
+          print(f"actual_version={shlex.quote(actual_version)}")
+          print(f"select_file={shlex.quote(str(selected_file))}")
+          print(f"install_type={shlex.quote(install_type)}")
+          PY
+          )" || exit 1
+          eval "$selection_script"
 
           if [[ -n "$actual_version" && "$actual_version" != "latest" ]]; then
             release_tag="${PACKAGE_NAME}-v${actual_version}"
@@ -484,39 +537,6 @@ jobs:
             tag_already_exists=false
           fi
 
-          select_file=''
-          install_type=''
-          for file in "${package_files[@]}"; do
-            base="$(basename "$file")"
-            if [[ "$base" =~ cp313-[^-]*-(manylinux|musllinux)[^/]*x86_64\.whl$ || "$base" =~ cp313-[^-]*-linux_x86_64\.whl$ ]]; then
-              select_file="$file"
-              install_type='Python 3.13 Linux x86_64 wheel'
-              break
-            fi
-          done
-          if [[ -z "$select_file" ]]; then
-            for file in "${package_files[@]}"; do
-              base="$(basename "$file")"
-              if [[ "$base" =~ (py3-none-any|py2.py3-none-any)\.whl$ ]]; then
-                select_file="$file"
-                install_type='Universal wheel (Python 3+)'
-                break
-              fi
-            done
-          fi
-          if [[ -z "$select_file" ]]; then
-            for file in "${package_files[@]}"; do
-              if [[ "$(basename "$file")" == *.tar.gz ]]; then
-                select_file="$file"
-                install_type='Source distribution'
-                break
-              fi
-            done
-          fi
-          if [[ -z "$select_file" ]]; then
-            echo 'Could not determine a publishable file for install command generation.' >&2
-            exit 1
-          fi
           filename="$(basename "$select_file")"
           install_cmd="pip install https://github.com/$TARGET_GITHUB_REPOSITORY/releases/download/$release_tag/$filename"
           package_files_list="$(printf -- '- %s\n' "${package_files[@]##*/}")"
@@ -544,9 +564,7 @@ jobs:
           EOF
           release_notes_file='release-notes.md'
           if [[ -f publish_inputs/review_output/approval-report.md ]]; then
-            release_notes_file='publish_inputs/review_output/approval-report.md'
-          else
-            echo 'Approval report Markdown not found. Falling back to generated release notes.'
+            echo 'Using short generated release notes; full approval report will be uploaded as a release asset.'
           fi
 
           if [[ "$tag_already_exists" == "false" ]]; then

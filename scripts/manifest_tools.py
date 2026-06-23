@@ -67,6 +67,10 @@ def write_text(path: Path, content: str) -> None:
 
 
 def determine_package_type(file_name: str) -> str:
+    if re.search(r"cp\d+-abi3-(manylinux|musllinux).*x86_64\.whl$", file_name) or re.search(r"cp\d+-abi3-linux_x86_64\.whl$", file_name):
+        return "ABI3 Linux x86_64 wheel"
+    if re.search(r"py3-none-(manylinux|musllinux).*x86_64\.whl$", file_name) or re.search(r"py3-none-linux_x86_64\.whl$", file_name):
+        return "Python 3 Linux x86_64 wheel"
     if is_target_linux_wheel(file_name):
         return "Python 3.13 Linux x86_64 wheel"
     if re.search(r"cp313-.*\.whl$", file_name):
