@@ -43,7 +43,9 @@ The initial Linux manifest intentionally carries only package names and lifecycl
 - `SNYK_ORG`: selects the Snyk organization.
 - `REPO_WRITE_TOKEN`: pushes generated commits and manages releases.
 - `AZURE_AI_FOUNDRY_API_KEY`: optional advisory AI review authentication.
-- `AZURE_AI_FOUNDRY_ENDPOINT`: optional Azure AI Foundry Responses API endpoint.
+- `AZURE_AI_FOUNDRY_ENDPOINT`: optional Azure AI Foundry agent endpoint. This may be the full agent Responses endpoint, the agent endpoint, or the project endpoint when `AZURE_AI_FOUNDRY_AGENT_NAME` is also set.
+- `AZURE_AI_FOUNDRY_AGENT_NAME`: optional agent name, required only when `AZURE_AI_FOUNDRY_ENDPOINT` is the project endpoint.
+- `AZURE_AI_FOUNDRY_API_VERSION`: optional agent API version. Defaults to `v1`.
 
 ## Review Guidance
 
