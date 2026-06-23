@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-22T20:52:53.217075Z",
+  "generatedAt": "2026-06-23T12:29:37.359971Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -1931,6 +1931,28 @@
             "s3transfer-0.10.4.tar.gz",
             "six-1.17.0.tar.gz",
             "urllib3-2.7.0.tar.gz"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "fastexcel": {
+      "name": "fastexcel",
+      "latestVersion": "0.20.2",
+      "latestReleaseTag": "fastexcel-v0.20.2",
+      "versions": [
+        {
+          "version": "0.20.2",
+          "releaseTag": "fastexcel-v0.20.2",
+          "validationDate": "2026-06-23",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/fastexcel-v0.20.2/fastexcel-0.20.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "packageType": "ABI3 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/fastexcel-v0.20.2",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28026143107",
+          "buildId": "28026143107",
+          "files": [
+            "fastexcel-0.20.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
           ]
         }
       ],
