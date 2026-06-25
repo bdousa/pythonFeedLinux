@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 73
+- **Active packages:** 74
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-25 (`fastapi`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`python-multipart`](#python-multipart) | `0.0.32` | 2026-06-25 |
 | [`fastapi`](#fastapi) | `0.138.1` | 2026-06-25 |
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
 | [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
 | [`polars`](#polars) | `1.41.2` | 2026-06-23 |
-| [`jupyterlab`](#jupyterlab) | `4.6.0` | 2026-06-23 |
 
 ## 📦 Available Packages
 
@@ -672,6 +672,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/python-dotenv-v1.2.2/python_dotenv-1.2.2-py3-none-any.whl
 ```
 
+#### `python-multipart`
+- **Latest version:** `0.0.32`
+- **Validated:** 2026-06-25
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/python-multipart-v0.0.32/python_multipart-0.0.32-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/python-multipart-v0.0.32)
+- **Validation run:** [build #28192695143](https://github.com/bdousa/pythonFeedLinux/actions/runs/28192695143)
+- **Quick command:**
+```text
+pip install https://github.com/bdousa/pythonFeedLinux/releases/download/python-multipart-v0.0.32/python_multipart-0.0.32-py3-none-any.whl
+```
+
 #### `pythonnet`
 - **Latest version:** `3.1.0`
 - **Validated:** 2026-06-22
@@ -993,6 +1005,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-25 18:55 UTC*
+*Last updated: 2026-06-25 18:56 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
