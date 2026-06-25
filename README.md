@@ -7,9 +7,9 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 72
+- **Active packages:** 73
 - **Deprecated packages:** 0
-- **Most recent validation:** 2026-06-23 (`fastexcel`)
+- **Most recent validation:** 2026-06-25 (`fastapi`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
 
 ## ✅ Requirements
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`fastapi`](#fastapi) | `0.138.1` | 2026-06-25 |
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
 | [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
 | [`polars`](#polars) | `1.41.2` | 2026-06-23 |
 | [`jupyterlab`](#jupyterlab) | `4.6.0` | 2026-06-23 |
-| [`graphrag`](#graphrag) | `3.1.0` | 2026-06-23 |
 
 ## 📦 Available Packages
 
@@ -234,6 +234,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/faiss-cpu-v1.14.3.txt
+```
+
+#### `fastapi`
+- **Latest version:** `0.138.1`
+- **Validated:** 2026-06-25
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/fastapi-v0.138.1/fastapi-0.138.1-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/fastapi-v0.138.1)
+- **Validation run:** [build #28192688717](https://github.com/bdousa/pythonFeedLinux/actions/runs/28192688717)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/fastapi-v0.138.1.txt
 ```
 
 #### `fastexcel`
@@ -981,6 +993,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-23 12:37 UTC*
+*Last updated: 2026-06-25 18:55 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
