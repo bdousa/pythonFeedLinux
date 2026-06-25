@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 74
+- **Active packages:** 75
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-06-25 (`fastapi`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`uvicorn`](#uvicorn) | `0.49.0` | 2026-06-25 |
 | [`python-multipart`](#python-multipart) | `0.0.32` | 2026-06-25 |
 | [`fastapi`](#fastapi) | `0.138.1` | 2026-06-25 |
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
 | [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
-| [`polars`](#polars) | `1.41.2` | 2026-06-23 |
 
 ## 📦 Available Packages
 
@@ -906,6 +906,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/uv-v0.11.23/uv-0.11.23-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+```
+
+#### `uvicorn`
+- **Latest version:** `0.49.0`
+- **Validated:** 2026-06-25
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/uvicorn-v0.49.0/uvicorn-0.49.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/uvicorn-v0.49.0)
+- **Validation run:** [build #28192707174](https://github.com/bdousa/pythonFeedLinux/actions/runs/28192707174)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/uvicorn-v0.49.0.txt
 ```
 
 ### X
