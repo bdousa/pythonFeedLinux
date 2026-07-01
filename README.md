@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 79
+- **Active packages:** 80
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-07-01 (`artifacts-keyring`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -25,10 +25,10 @@ This repository contains Python packages validated through automated security sc
 | Package | Version | Validated |
 |---------|---------|-----------|
 | [`twine`](#twine) | `6.2.0` | 2026-07-01 |
+| [`rapidocr-onnxruntime`](#rapidocr-onnxruntime) | `1.2.3` | 2026-07-01 |
 | [`keyring`](#keyring) | `25.7.0` | 2026-07-01 |
 | [`cyclonedx-bom`](#cyclonedx-bom) | `7.3.0` | 2026-07-01 |
 | [`artifacts-keyring`](#artifacts-keyring) | `1.0.0` | 2026-07-01 |
-| [`uvicorn`](#uvicorn) | `0.49.0` | 2026-06-25 |
 
 ## 📦 Available Packages
 
@@ -772,6 +772,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 
 ### R
 
+#### `rapidocr-onnxruntime`
+- **Latest version:** `1.2.3`
+- **Validated:** 2026-07-01
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/rapidocr_onnxruntime-1.2.3-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/rapidocr-onnxruntime-v1.2.3)
+- **Validation run:** [build #28192700931](https://github.com/bdousa/pythonFeedLinux/actions/runs/28192700931)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/rapidocr-onnxruntime-v1.2.3.txt
+```
+
 #### `reportlab`
 - **Latest version:** `5.0.0`
 - **Validated:** 2026-06-22
@@ -1067,6 +1079,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-07-01 19:02 UTC*
+*Last updated: 2026-07-01 19:03 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

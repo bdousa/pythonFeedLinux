@@ -1,0 +1,13 @@
+--no-index
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/flatbuffers-25.12.19-py2.py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/numpy-2.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/onnxruntime-1.27.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/opencv_python-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/packaging-26.2-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/pillow-12.2.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/protobuf-7.35.1-cp310-abi3-manylinux2014_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/pyclipper-1.4.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/rapidocr_onnxruntime-1.2.3-py3-none-any.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/shapely-2.1.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+https://github.com/bdousa/pythonFeedLinux/releases/download/rapidocr-onnxruntime-v1.2.3/six-1.17.0-py2.py3-none-any.whl
