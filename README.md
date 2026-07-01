@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 78
+- **Active packages:** 79
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-07-01 (`artifacts-keyring`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -26,9 +26,9 @@ This repository contains Python packages validated through automated security sc
 |---------|---------|-----------|
 | [`twine`](#twine) | `6.2.0` | 2026-07-01 |
 | [`keyring`](#keyring) | `25.7.0` | 2026-07-01 |
+| [`cyclonedx-bom`](#cyclonedx-bom) | `7.3.0` | 2026-07-01 |
 | [`artifacts-keyring`](#artifacts-keyring) | `1.0.0` | 2026-07-01 |
 | [`uvicorn`](#uvicorn) | `0.49.0` | 2026-06-25 |
-| [`python-multipart`](#python-multipart) | `0.0.32` | 2026-06-25 |
 
 ## 📦 Available Packages
 
@@ -180,6 +180,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 pip install https://github.com/bdousa/pythonFeedLinux/releases/download/chardet-v7.4.3/chardet-7.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+```
+
+#### `cyclonedx-bom`
+- **Latest version:** `7.3.0`
+- **Validated:** 2026-07-01
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/cyclonedx-bom-v7.3.0/cyclonedx_bom-7.3.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/cyclonedx-bom-v7.3.0)
+- **Validation run:** [build #28540636189](https://github.com/bdousa/pythonFeedLinux/actions/runs/28540636189)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/cyclonedx-bom-v7.3.0.txt
 ```
 
 ### D
@@ -1055,6 +1067,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-07-01 19:01 UTC*
+*Last updated: 2026-07-01 19:02 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
