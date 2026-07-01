@@ -7,9 +7,9 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 77
+- **Active packages:** 78
 - **Deprecated packages:** 0
-- **Most recent validation:** 2026-07-01 (`keyring`)
+- **Most recent validation:** 2026-07-01 (`artifacts-keyring`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
 
 ## ✅ Requirements
@@ -26,13 +26,25 @@ This repository contains Python packages validated through automated security sc
 |---------|---------|-----------|
 | [`twine`](#twine) | `6.2.0` | 2026-07-01 |
 | [`keyring`](#keyring) | `25.7.0` | 2026-07-01 |
+| [`artifacts-keyring`](#artifacts-keyring) | `1.0.0` | 2026-07-01 |
 | [`uvicorn`](#uvicorn) | `0.49.0` | 2026-06-25 |
 | [`python-multipart`](#python-multipart) | `0.0.32` | 2026-06-25 |
-| [`fastapi`](#fastapi) | `0.138.1` | 2026-06-25 |
 
 ## 📦 Available Packages
 
 ### A
+
+#### `artifacts-keyring`
+- **Latest version:** `1.0.0`
+- **Validated:** 2026-07-01
+- **Package type:** Python 3.13 Linux x86_64 wheel
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/artifacts-keyring-v1.0.0/artifacts_keyring-1.0.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/artifacts-keyring-v1.0.0)
+- **Validation run:** [build #28540630496](https://github.com/bdousa/pythonFeedLinux/actions/runs/28540630496)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/artifacts-keyring-v1.0.0.txt
+```
 
 #### `azure-ai-projects`
 - **Latest version:** `1.0.0`

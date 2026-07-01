@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T19:01:02.976951Z",
+  "generatedAt": "2026-07-01T19:01:37.317434Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -2475,6 +2475,43 @@
             "rich-15.0.0-py3-none-any.whl",
             "secretstorage-3.5.0-py3-none-any.whl",
             "twine-6.2.0-py3-none-any.whl",
+            "urllib3-2.7.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "artifacts-keyring": {
+      "name": "artifacts-keyring",
+      "latestVersion": "1.0.0",
+      "latestReleaseTag": "artifacts-keyring-v1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "releaseTag": "artifacts-keyring-v1.0.0",
+          "validationDate": "2026-07-01",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/artifacts-keyring-v1.0.0/artifacts_keyring-1.0.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+          "packageType": "Python 3.13 Linux x86_64 wheel",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/artifacts-keyring-v1.0.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28540630496",
+          "buildId": "28540630496",
+          "files": [
+            "artifacts_keyring-1.0.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+            "certifi-2026.6.17-py3-none-any.whl",
+            "cffi-2.0.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "cryptography-49.0.0-cp311-abi3-manylinux_2_34_x86_64.whl",
+            "idna-3.18-py3-none-any.whl",
+            "jaraco.classes-3.4.0-py3-none-any.whl",
+            "jaraco_context-6.1.2-py3-none-any.whl",
+            "jaraco_functools-4.5.0-py3-none-any.whl",
+            "jeepney-0.9.0-py3-none-any.whl",
+            "keyring-25.7.0-py3-none-any.whl",
+            "more_itertools-11.1.0-py3-none-any.whl",
+            "pycparser-3.0-py3-none-any.whl",
+            "requests-2.34.2-py3-none-any.whl",
+            "secretstorage-3.5.0-py3-none-any.whl",
             "urllib3-2.7.0-py3-none-any.whl"
           ]
         }
