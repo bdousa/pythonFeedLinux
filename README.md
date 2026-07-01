@@ -7,7 +7,7 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 76
+- **Active packages:** 77
 - **Deprecated packages:** 0
 - **Most recent validation:** 2026-07-01 (`keyring`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
@@ -24,11 +24,11 @@ This repository contains Python packages validated through automated security sc
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`twine`](#twine) | `6.2.0` | 2026-07-01 |
 | [`keyring`](#keyring) | `25.7.0` | 2026-07-01 |
 | [`uvicorn`](#uvicorn) | `0.49.0` | 2026-06-25 |
 | [`python-multipart`](#python-multipart) | `0.0.32` | 2026-06-25 |
 | [`fastapi`](#fastapi) | `0.138.1` | 2026-06-25 |
-| [`uv`](#uv) | `0.11.23` | 2026-06-23 |
 
 ## 📦 Available Packages
 
@@ -908,6 +908,18 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/tiktoken-v0.13.0.txt
 ```
 
+#### `twine`
+- **Latest version:** `6.2.0`
+- **Validated:** 2026-07-01
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/twine-v6.2.0/twine-6.2.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/twine-v6.2.0)
+- **Validation run:** [build #28540648128](https://github.com/bdousa/pythonFeedLinux/actions/runs/28540648128)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/twine-v6.2.0.txt
+```
+
 ### U
 
 #### `uv`
@@ -1031,6 +1043,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-07-01 18:58 UTC*
+*Last updated: 2026-07-01 19:01 UTC*
 
 *Powered by Azure DevOps Security Pipeline*
