@@ -7,9 +7,9 @@ This repository contains Python packages validated through automated security sc
 > The canonical package index is [`packages.json`](./packages.json). This README is generated from that manifest and should not be edited by hand.
 
 ## 📊 Quick Stats
-- **Active packages:** 75
+- **Active packages:** 76
 - **Deprecated packages:** 0
-- **Most recent validation:** 2026-06-25 (`fastapi`)
+- **Most recent validation:** 2026-07-01 (`keyring`)
 - **Target runtime:** Python 3.13.x on Ubuntu x64
 
 ## ✅ Requirements
@@ -18,17 +18,17 @@ This repository contains Python packages validated through automated security sc
 
 ## 🔎 Quick Jump
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [X](#x)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [X](#x)
 
 ## 🆕 Recently Validated
 
 | Package | Version | Validated |
 |---------|---------|-----------|
+| [`keyring`](#keyring) | `25.7.0` | 2026-07-01 |
 | [`uvicorn`](#uvicorn) | `0.49.0` | 2026-06-25 |
 | [`python-multipart`](#python-multipart) | `0.0.32` | 2026-06-25 |
 | [`fastapi`](#fastapi) | `0.138.1` | 2026-06-25 |
 | [`uv`](#uv) | `0.11.23` | 2026-06-23 |
-| [`ruff`](#ruff) | `0.15.18` | 2026-06-23 |
 
 ## 📦 Available Packages
 
@@ -312,6 +312,20 @@ python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinu
 - **Quick command:**
 ```text
 python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/jupyterlab-v4.6.0.txt
+```
+
+### K
+
+#### `keyring`
+- **Latest version:** `25.7.0`
+- **Validated:** 2026-07-01
+- **Package type:** Universal wheel (Python 3+)
+- **Download wheel:** [download](https://github.com/bdousa/pythonFeedLinux/releases/download/keyring-v25.7.0/keyring-25.7.0-py3-none-any.whl)
+- **Release notes:** [release](https://github.com/bdousa/pythonFeedLinux/releases/tag/keyring-v25.7.0)
+- **Validation run:** [build #28540642394](https://github.com/bdousa/pythonFeedLinux/actions/runs/28540642394)
+- **Quick command:**
+```text
+python -m pip install -r https://raw.githubusercontent.com/bdousa/pythonFeedLinux/main/bundles/keyring-v25.7.0.txt
 ```
 
 ### L
@@ -1017,6 +1031,6 @@ To request validation of a new package:
 2. **Select Category**: Choose '3rd party library approval'
 3. **Approval Process**: Packages typically validated within 3 business days
 
-*Last updated: 2026-06-25 18:56 UTC*
+*Last updated: 2026-07-01 18:58 UTC*
 
 *Powered by Azure DevOps Security Pipeline*

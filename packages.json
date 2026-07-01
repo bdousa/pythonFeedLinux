@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T18:56:26.830306Z",
+  "generatedAt": "2026-07-01T18:58:21.979626Z",
   "packages": {
     "azure-ai-projects": {
       "name": "azure-ai-projects",
@@ -2397,6 +2397,37 @@
             "click-8.4.2-py3-none-any.whl",
             "h11-0.16.0-py3-none-any.whl",
             "uvicorn-0.49.0-py3-none-any.whl"
+          ]
+        }
+      ],
+      "lifecycleState": "active",
+      "installable": true
+    },
+    "keyring": {
+      "name": "keyring",
+      "latestVersion": "25.7.0",
+      "latestReleaseTag": "keyring-v25.7.0",
+      "versions": [
+        {
+          "version": "25.7.0",
+          "releaseTag": "keyring-v25.7.0",
+          "validationDate": "2026-07-01",
+          "installUrl": "pip install https://github.com/bdousa/pythonFeedLinux/releases/download/keyring-v25.7.0/keyring-25.7.0-py3-none-any.whl",
+          "packageType": "Universal wheel (Python 3+)",
+          "releaseUrl": "https://github.com/bdousa/pythonFeedLinux/releases/tag/keyring-v25.7.0",
+          "pipelineUrl": "https://github.com/bdousa/pythonFeedLinux/actions/runs/28540642394",
+          "buildId": "28540642394",
+          "files": [
+            "cffi-2.0.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "cryptography-49.0.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "jaraco.classes-3.4.0-py3-none-any.whl",
+            "jaraco_context-6.1.2-py3-none-any.whl",
+            "jaraco_functools-4.5.0-py3-none-any.whl",
+            "jeepney-0.9.0-py3-none-any.whl",
+            "keyring-25.7.0-py3-none-any.whl",
+            "more_itertools-11.1.0-py3-none-any.whl",
+            "pycparser-3.0-py3-none-any.whl",
+            "secretstorage-3.5.0-py3-none-any.whl"
           ]
         }
       ],
